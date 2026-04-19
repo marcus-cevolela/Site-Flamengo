@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/menu.js" defer></script>
+    <title>Flamengo</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">☰</div>
+            <a href="index.html" class="logo-nav-mobile">
+                <img src="assets/images/escudoMenu.png" alt="Logo Sabor do Bairro">
+            </a>
+
+            <ul class="menu" id="menu">
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#elenco">ELENCO</a></li>
+                <li><a href="#idolos">ÍDOLOS</a></li>
+                <li class="logo-gap"></li>
+                <li class="logo-item"><a href="index.html"><img src="assets/images/escudoMenu.png" alt="ESCUDO FLAMENGO" class="escudo"></a></li>
+                <li class="logo-gap"></li>
+                <li><a href="#titulos">TÍTULOS</a></li>
+                <li><a href="#homenagem">HOMENAGEM</a></li>
+                <li><a href="#galeria">GALERIA</a></li>
+            </ul>
+        </nav>
+
+        <ul class="menu-mobile" id="menuMobile">
+            <a href="index.html" class="logo-menu-mobile">
+                <img src="assets/images/escudoMenu.png" alt="Logo Sabor do Bairro">
+            </a>
+            <li><a href="#sobre">SOBRE</a></li>
+            <li><a href="#elenco">ELENCO</a></li>
+            <li><a href="#idolos">ÍDOLOS</a></li>
+            <li><a href="#titulos">TÍTULOS</a></li>
+            <li><a href="#homenagem">HOMENAGEM</a></li>
+            <li><a href="#galeria">GALERIA</a></li>
+            <footer>
+                <p class="footernavbar">&copy; Densevolvido por Marcus Cevolela</p>
+            </footer>
+        </ul>
+
+        <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="badge">
+                <span>FUNDADO EM 1895</span>
+            </div>
+            <img src="assets/images/escudoCRF.png" alt="escudo CRF" id="escudoCRF">
+            <h1 class="titulo">CLUBE DE REGATAS DO <span class="destaque">FLAMENGO</span>
+            </h1>
+            <p class="subTitulo">Orgulho de ser Rubro-Negro</p>
+
+            <div class="containerBtn">
+                <a class="btn" id="btnSobre" href="#historia">História do Clube</a>
+                <a class="btn" id="btnElenco" href="#titulos">Títulos do Clube</a>
+            </div>
+        </section>
+
+        <section class="containerHistoria" id="historia">
+            <div class="texto">
+                <div class="badge">
+                    <span>SOBRE O CLUBE</span>
+                </div>
+                <h1 class="tituloPrincipal">
+                    Clube de Regatas do <span class="destaque">Flamengo</span>
+                </h1>
+                <p class="textoPrincipal">
+                    Fundado em 17 de novembro de 1895, às margens da Baía de Guanabara, o Clube de Regatas do Flamengo
+                    nasceu com alma carioca e espírito guerreiro. O que começou como um clube de remo se transformou,
+                    com o passar dos anos, no maior fenômeno do futebol brasileiro. Em 1911, um grupo de jovens
+                    apaixonados trouxe a bola e escreveu o primeiro capítulo de uma história que nunca mais parou de
+                    surpreender o mundo.
+                </p>
+                <p class="textoPrincipal">
+                    Mais de um século depois, o Mengão carrega nas cores vermelho e preto a identidade de milhões de
+                    pessoas. São mais de 40 milhões de torcedores espalhados pelo Brasil e por todos os continentes —
+                    uma Nação que pulsa, que vibra e que nunca abandona o clube nas horas difíceis. O Flamengo não é
+                    apenas um time. É um sentimento passado de geração em geração, que une pessoas de todas as origens
+                    em torno de uma única paixão.
+                </p>
+
+            </div>
+            <div class="cardsHistoria">
+                <div class="item">
+                    <div class="itemIcon">
+                        <img src="assets/images/icons/icon-estádio.png" alt="ícone Estádio">
+                    </div>
+                    <div>
+                        <p class="itemNome">Estádio do Maracanã</p>
+                        <p class="itemDesc">A casa do Flamengo. Com 78 mil torcedores, um dos estádios mais icônicos do mundo.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="itemIcon">
+                        <img src="assets/images/icons/icon-ct.png" alt="ícone CT">
+                    </div>
+                    <div>
+                        <p class="itemNome">CT Ninho do Urubu</p>
+                        <p class="itemDesc">Um dos centros de treinamento mais modernos do Brasil, em Vargem Grande, RJ.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="itemIcon">
+                        <img src="assets/images/icons/icon-torcida.png" alt="ícone Torcedor">
+                    </div>
+                    <div>
+                        <p class="itemNome">A Nação Rubro-Negra</p>
+                        <p class="itemDesc">Mais de 40 milhões de torcedores no Brasil e no mundo. A maior torcida do país.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+:root {
+    /* vermelhos*/
+    --vermelho: #E8001C;
+    --vermelho-suave: rgba(232, 0, 28, 0.08);
+    --vermelho-borda: rgba(232, 0, 28, 0.35);
+
+    /*fundos */
+    --fundo-pagina: #0A0A0A;
+    --fundo-card: #111111;
+    --fundo-navbar: #E8001C;
+
+    /* textos */
+    --texto-principal: #FFFFFF;
+    --texto-secundario: rgba(255, 255, 255, 0.40);
+    --texto-navbar: #000000;
+
+    /* brilhos */
+    --neon-m: 0 0 10px rgba(232, 0, 28, 0.50);
+    --neon-g: 0 0 14px rgba(232, 0, 28, 0.70);
+    --neon-linha: 0 0 8px #E8001C, 0 0 20px rgba(232, 0, 28, 0.40);
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: var(--fundo-pagina);
+}
+
+
+/* hero  */
+.hero {
+    min-height: calc(100vh - 72px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 95px;
+    margin-top: 0;
+    width: 100%;
+}
+
+.badge {
+    margin-bottom: 24px;
+}
+
+.badge span {
+    display: inline-block;
+    background-color: var(--vermelho-suave);
+    color: var(--vermelho);
+    border: 1px solid var(--vermelho-borda);
+    box-shadow: var(--neon-m);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#escudoCRF {
+    width: 200px;
+    height: 200px;
+    filter: drop-shadow(0 0 14px rgba(232, 0, 28, 0.70));
+    animation: batida 3s ease-out infinite;
+}
+
+.titulo {
+    color: var(--texto-principal);
+    font-size: 40px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.destaque {
+    display: inline;
+    color: var(--vermelho);
+    filter: drop-shadow(0 0 12px rgba(232, 0, 28, 0.50));
+}
+
+.subTitulo {
+    color: var(--texto-secundario);
+    font-size: 22px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.containerBtn {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    background-color: var(--fundo-card);
+    color: var(--vermelho);
+    border: 1px solid var(--vermelho-borda);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: var(--vermelho);
+    color: var(--texto-navbar);
+    border-color: var(--vermelho);
+    box-shadow: var(--neon-g);
+}
+
+/* historia */
+.containerHistoria {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    gap: 64px;
+}
+
+.texto {
+    border-right: 2px solid var(--vermelho);
+    padding-right: 50px;
+}
+
+.tituloPrincipal {
+    text-align: left;
+    color: var(--texto-principal);
+    margin-bottom: 20px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.textoPrincipal {
+    text-align: left;
+    color: var(--texto-secundario);
+    margin-bottom: 16px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.textoPrincipal:last-child {
+    margin-bottom: 0;
+}
+
+.cardsHistoria {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    min-width: 400px;
+}
+
+.item {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid #141414;
+}
+
+.item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.itemIcon {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    background: var(--vermelho-suave);
+    border: 1px solid var(--vermelho-borda);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.itemIcon img {
+    width: 45px;
+    height: 45px;
+}
+
+.itemNome {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--texto-principal);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+}
+
+.itemDesc {
+    font-size: 17px;
+    color: var(--texto-secundario);
+    line-height: 1.7;
+    margin-top: 4px;
+}
+
+@keyframes batida {
+    0%, 40%, 70%, 100% { 
+        transform: scale(1); 
+    }
+    20% { 
+        transform: scale(1.05); 
+    }
+    50%, 80% { 
+        transform: scale(1.05); 
+    }
+}
+
+/* media query p celular */
+@media (max-width: 768px) {
+    .hero {
+        padding-right: 0px;
+    }
+    
+}
