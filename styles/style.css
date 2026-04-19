@@ -318,14 +318,6 @@ body {
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
 @keyframes batida {
     0%, 40%, 70%, 100% { 
         transform: scale(1); 
