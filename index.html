@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/menu.js" defer></script>
+    <script src="scripts/modalJogador.js" defer></script>
     <script src="scripts/cardJogador.js" defer></script>
     <title>Flamengo</title>
 </head>
@@ -16,16 +17,18 @@
         <nav class="navbar">
             <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">☰</div>
             <a href="index.html" class="logo-nav-mobile">
-                <img src="assets/images/escudoMenu.png" alt="Logo Sabor do Bairro">
+                <img src="assets/images/escudoMenu.png" alt="Escudo Flamengo">
             </a>
-
             <ul class="menu" id="menu">
                 <li><a href="#sobre">SOBRE</a></li>
                 <li><a href="#elenco">ELENCO</a></li>
                 <li><a href="#idolos">ÍDOLOS</a></li>
                 <li class="logo-gap"></li>
-                <li class="logo-item"><a href="index.html"><img src="assets/images/escudoMenu.png" alt="ESCUDO FLAMENGO"
-                            class="escudo"></a></li>
+                <li class="logo-item">
+                    <a href="index.html">
+                        <img src="assets/images/escudoMenu.png" alt="ESCUDO FLAMENGO" class="escudo">
+                    </a>
+                </li>
                 <li class="logo-gap"></li>
                 <li><a href="#titulos">TÍTULOS</a></li>
                 <li><a href="#homenagem">HOMENAGEM</a></li>
@@ -35,7 +38,7 @@
 
         <ul class="menu-mobile" id="menuMobile">
             <a href="index.html" class="logo-menu-mobile">
-                <img src="assets/images/escudoMenu.png" alt="Logo Sabor do Bairro">
+                <img src="assets/images/escudoMenu.png" alt="Escudo Flamengo">
             </a>
             <li><a href="#sobre">SOBRE</a></li>
             <li><a href="#elenco">ELENCO</a></li>
@@ -44,7 +47,7 @@
             <li><a href="#homenagem">HOMENAGEM</a></li>
             <li><a href="#galeria">GALERIA</a></li>
             <footer>
-                <p class="footernavbar">&copy; Densevolvido por Marcus Cevolela</p>
+                <p class="footernavbar">&copy; Desenvolvido por Marcus Cevolela</p>
             </footer>
         </ul>
 
@@ -52,21 +55,22 @@
     </header>
 
     <main>
+
+        <!-- hero-->
         <section class="hero" id="hero">
             <div class="badge">
                 <span>FUNDADO EM 1895</span>
             </div>
-            <img src="assets/images/escudoCRF.png" alt="escudo CRF" id="escudoCRF">
-            <h1 class="titulo">CLUBE DE REGATAS DO <span class="destaque">FLAMENGO</span>
-            </h1>
+            <img src="assets/images/escudoCRF.png" alt="Escudo CRF" id="escudoCRF">
+            <h1 class="titulo">CLUBE DE REGATAS DO <span class="destaque">FLAMENGO</span></h1>
             <p class="subTitulo">Orgulho de ser Rubro-Negro</p>
-
             <div class="containerBtn">
-                <a class="btn" id="btnSobre" href="#historia">História do Clube</a>
-                <a class="btn" id="btnElenco" href="#titulos">Títulos do Clube</a>
+                <a class="btn" href="#historia">História do Clube</a>
+                <a class="btn" href="#titulos">Títulos do Clube</a>
             </div>
         </section>
 
+        <!-- sobre -->
         <section class="containerHistoria" id="historia">
             <div class="texto">
                 <div class="badge">
@@ -89,7 +93,6 @@
                     apenas um time. É um sentimento passado de geração em geração, que une pessoas de todas as origens
                     em torno de uma única paixão.
                 </p>
-
             </div>
             <div class="cardsHistoria">
                 <div class="item">
@@ -102,7 +105,6 @@
                             mundo.</p>
                     </div>
                 </div>
-
                 <div class="item">
                     <div class="itemIcon">
                         <img src="assets/images/icons/icon-ct.png" alt="ícone CT">
@@ -113,7 +115,6 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="item">
                     <div class="itemIcon">
                         <img src="assets/images/icons/icon-torcida.png" alt="ícone Torcedor">
@@ -127,14 +128,97 @@
             </div>
         </section>
 
+        <!-- elenco -->
         <section class="containerElenco" id="elenco">
             <h1 class="titulo">ELENCO</h1>
             <p class="subTitulo">Plantel completo do Clube de Regatas do Flamengo para a temporada 2026</p>
-            <div class="elenco">
-                
-            </div>
+            <div class="elenco"></div>
         </section>
+
     </main>
+
+    <!-- modal -->
+    <div class="overlayModal" id="overlayModal">
+        <div class="modalJogador">
+
+            <div class="modalEsquerda">
+                <img src="" alt="" id="modalFoto">
+                <span class="posicaoJogador" id="modalPosicao"></span>
+                <div class="statsJogador">
+                    <div class="statItem">
+                        <span class="statNum" data-jogos>---</span>
+                        <span class="statLabel">JOGOS</span>
+                    </div>
+                    <div class="statItem">
+                        <span class="statNum" data-gols>---</span>
+                        <span class="statLabel">GOLS</span>
+                    </div>
+                    <div class="statItem">
+                        <span class="statNum" data-assistencias>---</span>
+                        <span class="statLabel">ASSIST.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modalDireita">
+                <div class="modalHeader">
+                    <span class="numeroModal" id="modalNumero"></span>
+                    <div class="modalIdentidade">
+                        <h1 class="modalApelido" id="modalApelido"></h1>
+                        <div class="modalSub">
+                            <img src="" alt="" class="modalBandeira" id="modalBandeira">
+                            <span class="modalNomeCompleto" id="modalNomeCompleto"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dados">
+                    <div class="linhaModal">
+                        <div class="conteudoJogador">
+                            <span class="tituloConteudo">NASCIMENTO</span>
+                            <span class="subtituloConteudo" data-nascimento>---</span>
+                        </div>
+                        <div class="conteudoJogador">
+                            <span class="tituloConteudo">NATURALIDADE</span>
+                            <span class="subtituloConteudo" data-naturalidade>---</span>
+                        </div>
+                    </div>
+                    <div class="linhaModal">
+                        <div class="conteudoJogador">
+                            <span class="tituloConteudo">CHEGADA AO CLUBE</span>
+                            <span class="subtituloConteudo" data-chegada>---</span>
+                        </div>
+                        <div class="conteudoJogador">
+                            <span class="tituloConteudo">SAÍDA DO CLUBE</span>
+                            <span class="subtituloConteudo" data-saida>---</span>
+                        </div>
+                    </div>
+                    <div class="linhaModal">
+                        <div class="conteudoJogador">
+                            <span class="tituloConteudo">ALTURA</span>
+                            <span class="subtituloConteudo" data-altura>---</span>
+                        </div>
+                        <div class="conteudoJogador">
+                            <span class="tituloConteudo">PÉ DOMINANTE</span>
+                            <span class="subtituloConteudo" data-pe>---</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modalSobre">
+                    <span class="tituloModal">SOBRE</span>
+                    <p class="bioJogador" id="modalSobre">---</p>
+                </div>
+
+                <div class="modalTitulos">
+                    <span class="tituloModal">TÍTULOS PELO FLAMENGO</span>
+                    <div class="titulosGrid" id="titulosGrid"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

@@ -21,6 +21,13 @@ fetch("assets/dados/elenco.json")
                     </div>
                 </div>
             `;
+
+            card.addEventListener("click", () => {
+                if (typeof abrirModal === "function") {
+                    abrirModal(jogador);
+                }
+            });
+
             container.appendChild(card);
         });
 
