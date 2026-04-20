@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/escudoCRF.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/menu.js" defer></script>
     <script src="scripts/modalJogador.js" defer></script>
     <script src="scripts/cardJogador.js" defer></script>
+    <script src="scripts/carrosselIdolo.js" defer></script>
     <title>Flamengo</title>
 </head>
 
@@ -138,46 +140,40 @@
         <!-- idolos -->
         <section class="containerIdolos" id="idolos">
             <h1 class="titulo"><span class="destaque">ÍDOLOS</span> DA NAÇÃO</h1>
-            <p class="subTitulo">Veja mais sobre a história de alguns ídolos do clube</p>
+            <p class="subTitulo">Veja sobre a história de alguns ídolos do clube</p>
             <div class="conteudo">
                 <div class="conteudoIdolo">
                     <div class="headerIdolo">
-                        <h1 class="tituloIdolo">Zico</h1>
-                        <span class="posicaoIdolo">Meia-Atacante</span>
+                        <h1 class="tituloIdolo"></h1>
+                        <span class="posicaoIdolo"></span>
                     </div>
-                    <p class="bioIdolo">Considerado por muitos o maior jogador da história do futebol brasileiro, Zico é, sem sombra de dúvidas, o maior ídolo que o Flamengo já teve. Apodado de Galinho de Quintino, o carioca de origem humilde se tornou um fenômeno dentro e fora dos gramados. Com dribles desconcertantes, visão de jogo inigualável e uma finalização precisa tanto com o pé direito quanto em cobranças de falta, Zico liderou o Flamengo em uma das fases mais gloriosas da história do clube. Em 1981, conduziu o Mengão à conquista da Copa Libertadores e do Mundial de Clubes, tornando o Flamengo conhecido em todo o planeta. Ao longo de quase duas décadas com a camisa rubro-negra, marcou 508 gols em 731 jogos — números que poucos ousam sonhar em alcançar.</p>
-
+                    <p class="bioIdolo"></p>
                     <div class="rodapeIdolo">
                         <div class="infoIdolo">
                             <span class="tituloInfoIdolo">NO CLUBE</span>
-                            <span class="subtituloIdolo">1971 - 1989</span>
+                            <span class="subtituloIdolo subtituloNoClube"></span>
                         </div>
                         <div class="infoIdolo">
                             <span class="tituloInfoIdolo">JOGOS</span>
-                            <span class="subtituloIdolo">731</span>
+                            <span class="subtituloIdolo subtituloJogos"></span>
                         </div>
                         <div class="infoIdolo">
-                            <span class="tituloInfoIdolo">GOLS</span>
-                            <span class="subtituloIdolo">508</span>
+                            <span class="tituloInfoIdolo labelGolsVitorias">GOLS</span>
+                            <span class="subtituloIdolo subtituloGols"></span>
                         </div>
                     </div>
                 </div>
 
-
                 <div class="carrosselIdolo">
-                    <img src="assets/images/idolos/zico.png" alt="">
+                    <img src="" alt="" class="fotoIdolo">
                     <div class="fotoOverlay">
-                        <span class="fotoDescricao">Zico — 1981</span>
+                        <span class="fotoDescricao"></span>
                     </div>
                 </div>
             </div>
 
             <div class="navIdolos">
-                <button class="navDot ativo"></button>
-                <button class="navDot"></button>
-                <button class="navDot"></button>
-                <button class="navDot"></button>
-                <button class="navDot"></button>
+                <!-- dots gerados pelo JS -->
                 <div class="navSetas">
                     <button class="navSeta" id="anteriorIdolo">←</button>
                     <button class="navSeta" id="proximoIdolo">→</button>
