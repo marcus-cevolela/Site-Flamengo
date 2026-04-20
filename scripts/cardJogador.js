@@ -32,3 +32,5 @@ fetch("assets/dados/elenco.json")
         });
 
     });
+
+    

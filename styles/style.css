@@ -97,6 +97,7 @@ body {
     font-size: 22px;
     margin-top: 5px;
     font-weight: bold;
+    text-align: center;
 }
 
 .containerBtn {
@@ -259,6 +260,11 @@ body {
 .cardJogador:hover {
     transform: translateY(-6px);
     box-shadow: 0 0 16px rgba(232,0,28,0.35);
+}
+
+.cardJogador:hover .numeroFoto {
+    color: var(--vermelho);
+    filter: drop-shadow(0 0 12px rgba(232, 0, 28, 0.50));
 }
 
 .numeroFoto {
@@ -567,4 +573,187 @@ body {
 .semTitulos {
     color: rgba(255,255,255,0.3);
     font-size: 12px;
+}
+
+/* idolos */
+.containerIdolos {
+    padding: 64px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 48px;
+    gap: 0;
+}
+
+.conteudoIdolo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 48px;
+    border-right: 1px solid #1e1e1e;
+    position: relative;
+}
+
+.conteudoIdolo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 48px;
+    border-right: 1px solid #1e1e1e;
+    position: relative;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.headerIdolo {
+    margin-bottom: 20px;
+}
+
+.tituloIdolo {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--texto-principal);
+    margin: 0 0 6px 0;
+}
+
+.posicaoIdolo {
+    display: inline-block;
+    color: var(--texto-secundario);
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--vermelho);
+}
+
+.bioIdolo {
+    color: var(--texto-secundario);
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 28px;
+}
+
+.rodapeIdolo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.infoIdolo {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.tituloInfoIdolo {
+    color: rgba(255,255,255,0.25);
+    font-weight: 500;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.subtituloIdolo {
+    color: var(--texto-principal);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* foto */
+.carrosselIdolo {
+    padding-left: 48px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.carrosselIdolo img {
+    width: 500px;
+    height: 340px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+    display: block;
+    border: 1px solid #1e1e1e;
+}
+
+.fotoOverlay {
+    position: absolute;
+    bottom: 0; left: 48px; right: 0;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 60%);
+    display: flex;
+    align-items: flex-end;
+    padding: 16px 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.carrosselIdolo:hover .fotoOverlay {
+    opacity: 1;
+}
+
+.fotoDescricao {
+    font-size: 13px;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 0.06em;
+}
+
+/* navegacao */
+.navIdolos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.navDot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #2a2a2a;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+}
+
+.navDot.ativo {
+    background: var(--vermelho);
+    box-shadow: 0 0 8px rgba(232,0,28,0.7);
+    width: 20px;
+    border-radius: 3px;
+}
+
+.navSetas {
+    display: flex;
+    gap: 8px;
+    margin-left: 16px;
+}
+
+.navSeta {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #111;
+    border: 1px solid #1e1e1e;
+    color: rgba(255,255,255,0.4);
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.navSeta:hover {
+    border-color: var(--vermelho);
+    color: var(--vermelho);
+    box-shadow: 0 0 8px rgba(232,0,28,0.3);
 }

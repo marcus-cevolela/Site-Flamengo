@@ -1,0 +1,172 @@
+[
+    {
+        "nome": "Zico",
+        "posicao": "Meia-Atacante",
+        "foto": "zico.png",
+        "noClube": "1971 - 1989",
+        "jogos": 732,
+        "gols": 508,
+        "bio": "Considerado por muitos o maior jogador da história do futebol brasileiro, Zico é, sem sombra de dúvidas, o maior ídolo que o Flamengo já teve. Apodado de Galinho de Quintino, o carioca de origem humilde se tornou um fenômeno dentro e fora dos gramados. Com dribles desconcertantes, visão de jogo inigualável e uma finalização precisa tanto com o pé direito quanto em cobranças de falta, Zico liderou o Flamengo em uma das fases mais gloriosas da história do clube. Em 1981, conduziu o Mengão à conquista da Copa Libertadores e do Mundial de Clubes, tornando o Flamengo conhecido em todo o planeta. Ao longo de quase duas décadas com a camisa rubro-negra, marcou 508 gols em 731 jogos — números que poucos ousam sonhar em alcançar.",
+        "fotoDescricao": "Zico — 1981"
+    },
+    {
+        "nome": "Junior",
+        "posicao": "Lateral-Esquerdo",
+        "foto": "junior.png",
+        "noClube": "1974 - 1993",
+        "jogos": 874,
+        "gols": 77,
+        "bio": "Elegante, técnico e com uma capacidade ofensiva raramente vista em um lateral, Junior é considerado um dos melhores jogadores da sua posição na história do futebol mundial. Nascido no Rio de Janeiro, passou quase duas décadas defendendo as cores do Flamengo, tornando-se um dos pilares da geração de ouro dos anos 80. Campeão da Copa Libertadores e do Mundial de Clubes em 1981, Junior encantava tanto pela qualidade técnica quanto pela personalidade dentro de campo. Após pendurar as chuteiras, seguiu ligado ao clube e ao futebol brasileiro, carregando com orgulho a camisa rubro-negra para onde quer que fosse.",
+        "fotoDescricao": "Junior — 1981"
+    },
+    {
+        "nome": "Adílio",
+        "posicao": "Meia",
+        "foto": "adilio.png",
+        "noClube": "1975 - 1990",
+        "jogos": 617,
+        "gols": 128,
+        "bio": "Parceiro inseparável de Zico no meio-campo que encantou o mundo, Adílio foi um dos grandes artistas da geração de ouro do Flamengo. Com um estilo de jogo criativo e gambiarras que deixavam os adversários para trás, o meia carioca era peça fundamental no esquema tático que trouxe a Libertadores e o Mundial de Clubes para o Flamengo em 1981. Sua cumplicidade com Zico dentro de campo era tamanha que os dois pareciam ler os pensamentos um do outro. Adílio permaneceu fiel ao clube por mais de uma década, tornando-se um símbolo da identidade rubro-negra dos anos 70 e 80.",
+        "fotoDescricao": "Adílio — 1981"
+    },
+    {
+        "nome": "Leandro",
+        "posicao": "Lateral-Direito",
+        "foto": "leandro.png",
+        "noClube": "1978 - 1990",
+        "jogos": 415,
+        "gols": 14,
+        "bio": "Refinado, técnico e com uma elegância que poucos laterais possuíram, Leandro é reconhecido como um dos melhores jogadores da sua posição na história do futebol brasileiro. Parceiro de Junior na defesa do Flamengo que dominou o futebol sul-americano nos anos 80, Leandro foi protagonista nas conquistas da Libertadores e do Mundial de Clubes de 1981. Dentro de campo, combinava marcação consistente com uma participação ofensiva inteligente, sempre apoiando as jogadas do time. Fora dos gramados, era querido por sua simpatia e humildade, tornando-se um ídolo eterno da Nação Rubro-Negra.",
+        "fotoDescricao": "Leandro — 1981"
+    },
+    {
+        "nome": "Leônidas",
+        "posicao": "Atacante",
+        "foto": "leonidas.png",
+        "noClube": "1936 - 1941",
+        "jogos": 149,
+        "gols": 153,
+        "bio": "Muito antes do futebol brasileiro se tornar o fenômeno que é hoje, Leônidas da Silva já mostrava ao mundo que o Brasil sabia jogar bola como ninguém. Apelidado de Diamante Negro, o atacante carioca foi um dos primeiros grandes ídolos do Flamengo e um dos jogadores brasileiros mais respeitados internacionalmente em sua época. Com uma habilidade técnica impressionante para os padrões da época, incluindo a famosa bicicleta que encantava plateias pelo mundo, Leônidas foi uma figura fundamental na construção da identidade do futebol rubro-negro e do futebol arte que o Brasil apresentaria ao mundo décadas depois.",
+        "fotoDescricao": "Leônidas — anos 30"
+    },
+    {
+        "nome": "Zagallo",
+        "posicao": "Ponta-Esquerda",
+        "foto": "zagallo.png",
+        "noClube": "1950 - 1958",
+        "jogos": 205,
+        "gols": 29,
+        "bio": "Único homem na história do futebol a conquistar a Copa do Mundo como jogador, assistente técnico e treinador, Mário Jorge Lobo Zagallo construiu as bases de sua gloriosa carreira no Flamengo. Por 15 anos defendeu a camisa rubro-negra com dedicação e inteligência, sendo um dos jogadores mais importantes do clube durante toda a década de 1950. Sua capacidade tática era extraordinária para a época — Zagallo entendia o jogo de uma forma que poucos conseguiam, e isso ficou evidente não só em campo mas também em sua carreira como treinador. Ao falecer em 2024, o mundo do futebol prestou uma homenagem emocionante a um dos maiores nomes que o esporte já produziu.",
+        "fotoDescricao": "Zagallo — 2001"
+    },
+    {
+        "nome": "Nunes",
+        "posicao": "Atacante",
+        "foto": "nunes.png",
+        "noClube": "1980 - 1987",
+        "jogos": 214,
+        "gols": 99,
+        "bio": "Na geração de ouro do Flamengo, enquanto Zico era o maestro, Nunes era o artilheiro implacável que concretizava as jogadas ensaiadas no treino. O atacante gaúcho chegou ao clube no final dos anos 70 e rapidamente se tornou um dos parceiros mais eficientes de Zico dentro de campo. Campeão da Copa Libertadores e do Mundial de Clubes em 1981, Nunes foi decisivo nas conquistas mais gloriosas da história rubro-negra. Sua habilidade em criar espaços dentro da área e sua frieza na finalização fizeram dele um dos centroavantes mais temidos do futebol sul-americano naquele período.",
+        "fotoDescricao": "Nunes — anos 80"
+    },
+    {
+        "nome": "Andrade",
+        "posicao": "Volante",
+        "foto": "andrade.png",
+        "noClube": "1976 - 1988",
+        "jogos": 570,
+        "gols": 29,
+        "bio": "Em todo time campeão existe aquele jogador que faz o trabalho que nem sempre aparece nas estatísticas mas que é absolutamente indispensável para o sucesso coletivo. No Flamengo campeão dos anos 80, esse jogador era Andrade. O volante carioca era o guerreiro do meio-campo que protegia a defesa, recuperava bolas e dava liberdade para que Zico e seus companheiros criassem as jogadas que encantavam o mundo. Campeão da Copa Libertadores e do Mundial de Clubes em 1981, Andrade foi um dos heróis anônimos de uma geração que ainda hoje é referência no futebol brasileiro e mundial.",
+        "fotoDescricao": "Andrade — 1981"
+    },
+    {
+        "nome": "Petkovic",
+        "posicao": "Meia-Atacante",
+        "foto": "petkovic.png",
+        "noClube": "2000 - 2011",
+        "jogos": 197,
+        "gols": 57,
+        "bio": "Há jogadores que marcam uma geração não apenas pelos títulos que conquistam, mas pela alegria que transmitem dentro de campo. Petkovic foi exatamente esse tipo de jogador para o Flamengo. O meia-atacante croata chegou ao Brasil no final dos anos 90 e rapidamente se apaixonou pelo Rio de Janeiro — e o Rio de Janeiro se apaixonou por ele. Com seu estilo único, suas cobranças de falta que paravam estádios e um carisma transbordante, Pet se tornou um dos jogadores mais queridos da história rubro-negra. Sua famosa frase 'o Rio me deu uma vida que o dinheiro não compra' resume com perfeição o que o Flamengo e o Brasil representaram para ele. Mais do que um ídolo, Petkovic é um símbolo da relação entre o futebol e a alma carioca.",
+        "fotoDescricao": "Petkovic — 2001"
+    },
+    {
+        "nome": "Adriano",
+        "posicao": "Atacante",
+        "foto": "adriano.png",
+        "noClube": "2000 - 2012",
+        "jogos": 94,
+        "gols": 46,
+        "bio": "O Imperador. Poucos apelidos no futebol brasileiro foram tão bem merecidos quanto o de Adriano Leite Ribeiro. Nascido na Vila Cruzeiro, no Rio de Janeiro, Adriano cresceu sonhando em defender o clube do coração — e quando isso finalmente aconteceu, em 2009, foi motivo de festa para toda a Nação. Com seu chute de canhão temido por goleiros do mundo inteiro, sua ginga característica e um carisma inigualável, Adriano encantou os torcedores rubro-negros em cada partida. Mesmo que sua passagem tenha sido breve, o impacto que o Imperador causou no Flamengo e na vida de quem acompanhou aquela época jamais será esquecido.",
+        "fotoDescricao": "Adriano — 2008"
+    },
+    {
+        "nome": "Diego",
+        "posicao": "Meia",
+        "foto": "diegoRibas.png",
+        "noClube": "2016 - 2023",
+        "jogos": 289,
+        "gols": 44,
+        "bio": "Após uma carreira brilhante na Europa, Diego Ribas voltou ao Brasil para escrever um dos capítulos mais bonitos da história recente do Flamengo. Com sua habilidade técnica refinada, visão de jogo apurada e liderança natural, o meia capixaba tornou-se o maestro do time que conquistou a Copa Libertadores de 2019 após 38 anos de espera. Diego foi um dos grandes responsáveis por liderar um grupo repleto de qualidade, transmitindo experiência e serenidade nos momentos mais decisivos. Quando deixou o clube em 2023, saiu ovacionado pela Nação, carregando no coração a gratidão de milhões de torcedores rubro-negros.",
+        "fotoDescricao": "Diego — 2022"
+    },
+    {
+        "nome": "Everton Ribeiro",
+        "posicao": "Meia",
+        "foto": "evertonRibeiro.png",
+        "noClube": "2017 - 2023",
+        "jogos": 394,
+        "gols": 46,
+        "bio": "Poucos jogadores estiveram tão presentes nos momentos mais marcantes do Flamengo moderno quanto Everton Ribeiro. Chegando ao clube em 2017, o meia gaúcho rapidamente se tornou uma peça indispensável no esquema de jogo rubro-negro, sendo fundamental nas conquistas da Copa Libertadores de 2019 e 2022, além de dois títulos do Campeonato Brasileiro. Com sua capacidade de criar jogadas, distribuir o jogo e aparecer em momentos decisivos, Everton Ribeiro conquistou o coração da Nação e deixou um legado que poucos jogadores conseguem alcançar em tão pouco tempo.",
+        "fotoDescricao": "Everton Ribeiro — 2023"
+    },
+    {
+        "nome": "Filipe Luís",
+        "posicao": "Lateral-Esquerdo",
+        "foto": "filipeLuis.png",
+        "noClube": "2019 - 2025",
+        "jogos": 176,
+        "gols": 4,
+        "bio": "A história de Filipe Luís com o Flamengo é única no futebol brasileiro. Após uma carreira de alto nível na Europa, onde defendeu clubes como Atlético de Madrid e Chelsea, chegou ao Mengão em 2019 como jogador e rapidamente se tornou ídolo da Nação. Bicampeão da Copa Libertadores como atleta, encerrou a carreira no clube do coração e assumiu o desafio de treinar o time profissional — e o que veio a seguir surpreendeu até os mais otimistas. Como técnico, conquistou duas Copas do Brasil, um Campeonato Brasileiro e uma Copa Libertadores, consolidando-se como um dos treinadores mais vitoriosos da história recente do clube. Jogador e técnico campeão: Filipe Luís é, sem dúvida, um dos maiores nomes da era moderna do Flamengo.",
+        "fotoDescricao": "Filipe Luís — 2022"
+    },
+    {
+        "nome": "Arrascaeta",
+        "posicao": "Meia",
+        "foto": "arrascaeta.png",
+        "noClube": "2019 - atual",
+        "jogos": 369,
+        "gols": 104,
+        "bio": "Quando chegou ao Brasil em 2019, Arrascaeta rapidamente mostrou por que era considerado um dos meias mais talentosos da América do Sul. Com uma habilidade técnica deslumbrante, dribles desconcertantes e uma capacidade de criar e finalizar que poucos possuem, o uruguaio se tornou um dos jogadores mais amados da história recente do Flamengo. Bicampeão da Copa Libertadores, Arrascaeta foi decisivo nas conquistas mais importantes do clube na era moderna, marcando gols e dando assistências em momentos que pararam o Brasil inteiro. Para a Nação Rubro-Negra, ele não é apenas um jogador estrangeiro — é um filho adotivo do Rio de Janeiro.",
+        "fotoDescricao": "Arrascaeta — 2022"
+    },
+    {
+        "nome": "Gabigol",
+        "posicao": "Atacante",
+        "foto": "gabigol.png",
+        "noClube": "2019 - 2024",
+        "jogos": 307,
+        "gols": 162,
+        "bio": "Há momentos no futebol que transcendem o esporte e se tornam parte da história de um povo. Os dois gols de Gabigol nos acréscimos da final da Copa Libertadores de 2019, contra o River Plate, foram exatamente isso. Com aquela virada histórica, Gabriel Barbosa imortalizou seu nome entre os maiores ídolos da história do Flamengo. Nos anos seguintes, continuou sendo o grande artilheiro do clube, conquistando mais uma Libertadores em 2022 e inúmeros títulos nacionais. Seu estilo provocador, seu carisma e sua capacidade de aparecer nos momentos mais importantes fizeram dele um dos atacantes mais marcantes do futebol brasileiro moderno.",
+        "fotoDescricao": "Gabigol — 2019"
+    },
+    {
+        "nome": "Bruno Henrique",
+        "posicao": "Atacante",
+        "foto": "brunoHenrique.png",
+        "noClube": "2019 - atual",
+        "jogos": 355,
+        "gols": 111,
+        "bio": "Se existe uma palavra que define Bruno Henrique dentro de campo, essa palavra é raça. O atacante mineiro chegou ao Flamengo em 2019 e rapidamente conquistou a Nação com seu futebol explosivo, sua velocidade avassaladora e uma entrega total em cada partida. Parceiro inseparável de Gabigol no ataque que encantou o Brasil e a América do Sul, Bruno Henrique foi fundamental nas conquistas da Copa Libertadores de 2019 e 2022. Mesmo diante de lesões graves que o tiraram por longos períodos, sempre voltou mais forte, mostrando a fibra e o caráter de um verdadeiro campeão. Para a Nação, é muito mais do que um jogador — é um símbolo de superação.",
+        "fotoDescricao": "Bruno Henrique — 2025"
+    },
+    {
+        "nome": "Léo Pereira",
+        "posicao": "Zagueiro",
+        "foto": "leoPereira.png",
+        "noClube": "2020 - atual",
+        "jogos": 235,
+        "gols": 12,
+        "bio": "Poucas histórias no futebol brasileiro ilustram tão bem a força da superação quanto a de Léo Pereira no Flamengo. Quando chegou ao clube em 2021, o zagueiro foi recebido com desconfiança e críticas duras da torcida — seus primeiros jogos foram marcados por erros, vaias e questionamentos sobre se realmente tinha nível para defender a camisa rubro-negra. Muitos pediam sua saída. Mas Léo Pereira não foi embora. Ao contrário, ficou, trabalhou, melhorou e calou cada um dos seus críticos dentro de campo. Com o tempo, foi se tornando um dos zagueiros mais completos do Brasil, combinando força física, agressividade na marcação e uma capacidade ofensiva impressionante nas bolas paradas. Foi crescendo tanto que se tornou líder e capitão do elenco. Campeão da Copa Libertadores de 2022 e de vários outros títulos, hoje é ovacionado pela mesma torcida que um dia o vaiou — e essa talvez seja sua maior conquista.",
+        "fotoDescricao": "Léo Pereira — 2025"
+    }
+]

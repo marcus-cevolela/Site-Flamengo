@@ -304,7 +304,32 @@
         "gols": null,
         "assistencias": null,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+        {
+            "nome": "Libertadores",
+            "quantidade": 3
+        },
+        {
+            "nome": "Brasileirão",
+            "quantidade": 3
+        },
+        {
+            "nome": "Copa do Brasil",
+            "quantidade": 2
+        },
+        {
+            "nome": "Carioca",
+            "quantidade": 5
+        },
+        {
+            "nome": "Supercopa do Brasil",
+            "quantidade": 3
+        },
+        {
+            "nome": "Recopa Sulamericana",
+            "quantidade": 1
+        }
+    ]
     },
     {
         "nome": "De La Cruz",
@@ -400,7 +425,24 @@
         "gols": null,
         "assistencias": null,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+        {
+            "nome": "Libertadores",
+            "quantidade": 3
+        },
+        {
+            "nome": "Brasileirão",
+            "quantidade": 3
+        },
+        {
+            "nome": "Copa do Brasil",
+            "quantidade": 2
+        },
+        {
+            "nome": "Carioca",
+            "quantidade": 5
+        }
+    ]
     },
     {
         "nome": "Pedro",
