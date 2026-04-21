@@ -8,13 +8,13 @@
         "foto": "dyogoAlves.webp",
         "nascimento": "09/01/2004",
         "naturalidade": "Fortaleza - CE",
-        "chegada": 2025,
+        "chegada": 2024,
         "saida": null,
         "altura": "1,88m",
         "peDominante": "Direito",
         "jogos": 5,
-        "gols": 0,
-        "assistencias": 0,
+        "golsSofridos": 8,
+        "jogosSemGols": 1,
         "sobre": null,
         "titulos": [
             {
@@ -61,8 +61,8 @@
         "altura": "1,93m",
         "peDominante": "Direito",
         "jogos": 163,
-        "gols": 0,
-        "assistencias": 0,
+        "golsSofridos": 117,
+        "jogosSemGols": 77,
         "sobre": null,
         "titulos": [
             {
@@ -119,6 +119,7 @@
             }
         ]
     },
+
     {
         "nome": "Léo Pereira",
         "nomeCompleto": "Leonardo Pereira",
@@ -155,7 +156,7 @@
             },
             {
                 "nome": "Supercopa do Brasil",
-                "quantidade": 2
+                "quantidade": 3
             },
             {
                 "nome": "Recopa Sulamericana",
@@ -322,11 +323,12 @@
         "sobre": null,
         "titulos": [
             {
-                "nome": "Copa do Brasil",
+                "nome": "Carioca",
                 "quantidade": 1
             }
         ]
     },
+
     {
         "nome": "Varela",
         "nomeCompleto": "Guillermo Varela Olivera",
@@ -338,13 +340,42 @@
         "naturalidade": "Montevidéu - URU",
         "chegada": 2022,
         "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
+        "altura": "1,73m",
+        "peDominante": "Direito",
+        "jogos": 138,
+        "gols": 4,
+        "assistencias": 7,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 2
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 3
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
     },
     {
         "nome": "Emerson Royal",
@@ -357,13 +388,34 @@
         "naturalidade": "São Paulo - SP",
         "chegada": 2025,
         "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
+        "altura": "1,83m",
+        "peDominante": "Direito",
+        "jogos": 32,
+        "gols": 1,
+        "assistencias": 4,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
     },
     {
         "nome": "Ayrton Lucas",
@@ -374,15 +426,44 @@
         "foto": "ayrtonLucas.webp",
         "nascimento": "19/06/1997",
         "naturalidade": "Carnaúbas dos Dantas - RN",
-        "chegada": 2021,
+        "chegada": 2022,
         "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
+        "altura": "1,80m",
+        "peDominante": "Esquerdo",
+        "jogos": 216,
+        "gols": 16,
+        "assistencias": 23,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 2
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 3
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
     },
     {
         "nome": "Alex Sandro",
@@ -392,17 +473,47 @@
         "bandeira": "brasil.png",
         "foto": "alexSandro.webp",
         "nascimento": "26/01/1991",
-        "naturalidade": "São Paulo - SP",
+        "naturalidade": "Catanduva - SP",
         "chegada": 2024,
         "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
+        "altura": "1,81m",
+        "peDominante": "Esquerdo",
+        "jogos": 70,
+        "gols": 1,
+        "assistencias": 2,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 2
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
     },
+
     {
         "nome": "Evertton Araujo",
         "nomeCompleto": "Evertton Gustavo Fernandes Araujo",

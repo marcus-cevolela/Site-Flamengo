@@ -11,7 +11,7 @@ fetch("assets/dados/titulos.json")
             card.classList.add("cardTitulo");
             card.innerHTML = `
                 <h1 class="nomeTitulo">${titulo.nome.toUpperCase()}</h1>
-                <img class="imgTaca" src="assets/images/tacas/${titulo.foto}" alt="${titulo.nome}">
+                <img class="imgTaca" id="taca${titulo.nome.trim().replace(/\s+/g, '')}" src="assets/images/tacas/${titulo.foto}" alt="${titulo.nome}">
                 <h2 class="qtdTitulos">${titulo.quantidade}</h2>
                 <span class="anosTitulos">${titulo.anos}</span>
             `;
@@ -70,3 +70,19 @@ function moverCarrosselTacas(direcao) {
     if (cardAtual >= total) cardAtual = 0;
     atualizarCarrosselTacas();
 }
+
+document.getElementById("idCarrosselTacas").addEventListener("click", function(e) {
+    var card = e.target.closest(".cardTitulo");
+    if (!card || card.classList.contains("ativo")) return;
+
+    var cards = document.getElementById("idCarrosselTacas").children;
+    for (var i = 0; i < cards.length; i++) {
+        if (cards[i] == card) {
+            var diff = i - cardAtual;
+            if (diff > 2) diff = diff - cards.length;
+            if (diff < -2) diff = diff + cards.length;
+            moverCarrosselTacas(diff);
+            break;
+        }
+    }
+});

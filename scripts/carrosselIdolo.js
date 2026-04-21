@@ -32,7 +32,8 @@ fetch("assets/dados/idolos.json")
             });
         }
 
-        const navIdolos = document.querySelector(".navIdolos");
+        // gera os dots dentro de .dotsIdolos
+        const dotsContainer = document.querySelector(".dotsIdolos");
         idolos.forEach((_, i) => {
             const dot = document.createElement("button");
             dot.classList.add("navDot");
@@ -41,7 +42,7 @@ fetch("assets/dados/idolos.json")
                 indiceAtual = i;
                 renderizarIdolo(indiceAtual);
             });
-            navIdolos.prepend(dot);
+            dotsContainer.appendChild(dot);
         });
 
         document.getElementById("proximoIdolo").addEventListener("click", () => {

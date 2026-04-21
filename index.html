@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/images/escudoCRF.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/escudos/escudoCRF.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/menu.css">
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/menu.js" defer></script>
@@ -20,7 +20,7 @@
         <nav class="navbar">
             <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">☰</div>
             <a href="index.html" class="logo-nav-mobile">
-                <img src="assets/images/escudoMenu.png" alt="Escudo Flamengo">
+                <img src="assets/images/ecudos/escudoMenu.png" alt="Escudo Flamengo">
             </a>
             <ul class="menu" id="menu">
                 <li><a href="#sobre">SOBRE</a></li>
@@ -29,7 +29,7 @@
                 <li class="logo-gap"></li>
                 <li class="logo-item">
                     <a href="index.html">
-                        <img src="assets/images/escudoMenu.png" alt="ESCUDO FLAMENGO" class="escudo">
+                        <img src="assets/images/escudos/escudoMenu.png" alt="ESCUDO FLAMENGO" class="escudo">
                     </a>
                 </li>
                 <li class="logo-gap"></li>
@@ -41,7 +41,7 @@
 
         <ul class="menu-mobile" id="menuMobile">
             <a href="index.html" class="logo-menu-mobile">
-                <img src="assets/images/escudoMenu.png" alt="Escudo Flamengo">
+                <img src="assets/images/escudos/escudoMenu.png" alt="Escudo Flamengo">
             </a>
             <li><a href="#sobre">SOBRE</a></li>
             <li><a href="#elenco">ELENCO</a></li>
@@ -64,7 +64,7 @@
             <div class="badge">
                 <span>FUNDADO EM 1895</span>
             </div>
-            <img src="assets/images/escudoCRF.png" alt="Escudo CRF" id="escudoCRF">
+            <img src="assets/images/escudos/escudoCRF.png" alt="Escudo CRF" id="escudoCRF">
             <h1 class="titulo">CLUBE DE REGATAS DO <span class="destaque">FLAMENGO</span></h1>
             <p class="subTitulo">Orgulho de ser Rubro-Negro</p>
             <div class="containerBtn">
@@ -174,14 +174,13 @@
             </div>
 
             <div class="navIdolos">
-                <!-- dots gerados pelo JS -->
-                <div class="navSetas">
-                    <button class="navSeta" id="anteriorIdolo">←</button>
-                    <button class="navSeta" id="proximoIdolo">→</button>
-                </div>
+                <button class="btnLateralIdolo btnEsquerdaIdolo" id="anteriorIdolo">&#8249;</button>
+                <div class="dotsIdolos"></div>
+                <button class="btnLateralIdolo btnDireitaIdolo" id="proximoIdolo">&#8250;</button>
             </div>
         </section>
 
+        <!-- titulos -->
         <div class="containerTitulos" id="titulos">
             <div class="headerTitulos">
                 <div class="badge"><span>CONQUISTAS</span></div>
@@ -196,11 +195,9 @@
             </div>
 
             <div class="carrosselTacas">
+                <button class="btnLateral btnEsquerda" onclick="moverCarrosselTacas(-1)">&#8249;</button>
                 <div class="tacasWrapper" id="idCarrosselTacas"></div>
-                <div class="botoesCarrossel">
-                    <button class="btnCarrossel" onclick="moverCarrosselTacas(-1)">&#8592;</button>
-                    <button class="btnCarrossel" onclick="moverCarrosselTacas(1)">&#8594;</button>
-                </div>
+                <button class="btnLateral btnDireita" onclick="moverCarrosselTacas(1)">&#8250;</button>
             </div>
         </div>
 
