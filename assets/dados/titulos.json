@@ -1,0 +1,62 @@
+[
+    {
+        "nome": "Mundial",
+        "foto": "mundial.png",
+        "quantidade": 1,
+        "anos": "Tóquio · 1981"
+    },
+    {
+        "nome": "Libertadores",
+        "foto": "libertadores.png",
+        "quantidade": 4,
+        "anos": "1981 · 2019 · 2022 · 2025"
+    },
+    {
+        "nome": "Brasileiro",
+        "foto": "brasileirao.png",
+        "quantidade": 9,
+        "anos": "1980 · 1982 · 1983 · 1987 · 1992  2009 · 2019 · 2020 · 2025"
+    },
+    {
+        "nome": "Copa do Brasil",
+        "foto": "copaDoBrasil.png",
+        "quantidade": 5,
+        "anos": "1990 · 2006 · 2013 · 2022 · 2024"
+    },
+    {
+        "nome": "Recopa Sulamericana",
+        "foto": "recopa.png",
+        "quantidade": 1,
+        "anos": "2020"
+    },
+    {
+        "nome": "Mercosul",
+        "foto": "mercosul.png",
+        "quantidade": 1,
+        "anos": "1999"
+    },
+    {
+        "nome": "Supercopa Do Brasil",
+        "foto": "supercopa.png",
+        "quantidade": 3,
+        "anos": "2020 · 2021 · 2025"
+    },
+    {
+        "nome": "Estaduais",
+        "foto": "carioca.png",
+        "quantidade": 40,
+        "anos": "Último em 2026"
+    },
+    {
+        "nome": "Derby das Américas",
+        "foto": "derbyDasAmericas.png",
+        "quantidade": 1,
+        "anos": "2025"
+    },
+    {
+        "nome": "Challenger Cup",
+        "foto": "challengerCup.png",
+        "quantidade": 1,
+        "anos": "2025"
+    }
+]

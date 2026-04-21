@@ -8,15 +8,44 @@
         "foto": "dyogoAlves.webp",
         "nascimento": "09/01/2004",
         "naturalidade": "Fortaleza - CE",
-        "chegada": null,
+        "chegada": 2025,
         "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
+        "altura": "1,88m",
+        "peDominante": "Direito",
+        "jogos": 5,
+        "gols": 0,
+        "assistencias": 0,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 2
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            },
+            {
+                "nome": "Intercontinental SUB-20",
+                "quantidade": 1
+            }
+        ]
     },
     {
         "nome": "Rossi",
@@ -26,16 +55,45 @@
         "bandeira": "argentina.png",
         "foto": "rossi.webp",
         "nascimento": "21/08/1995",
-        "naturalidade": "Buenos Aires - ARG",
+        "naturalidade": "San Martín - ARG",
         "chegada": 2023,
         "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
+        "altura": "1,93m",
+        "peDominante": "Direito",
+        "jogos": 163,
+        "gols": 0,
+        "assistencias": 0,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 3
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
     },
     {
         "nome": "Andrew",
@@ -46,17 +104,21 @@
         "foto": "andrew.webp",
         "nascimento": "01/07/2001",
         "naturalidade": "Duque de Caxias - RJ",
-        "chegada": null,
+        "chegada": 2026,
         "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
+        "altura": "1,89m",
+        "peDominante": "Direito",
+        "jogos": 5,
+        "gols": 0,
+        "assistencias": 0,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+            {
+                "nome": "Carioca",
+                "quantidade": 1
+            }
+        ]
     },
-
     {
         "nome": "Léo Pereira",
         "nomeCompleto": "Leonardo Pereira",
@@ -64,17 +126,50 @@
         "posicao": "Zagueiro",
         "bandeira": "brasil.png",
         "foto": "leoPereira.webp",
-        "nascimento": null,
-        "naturalidade": null,
-        "chegada": 2021,
+        "nascimento": "31/01/1996",
+        "naturalidade": "Curitiba - PR",
+        "chegada": 2020,
         "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
+        "altura": "1,89m",
+        "peDominante": "Esquerdo",
+        "jogos": 297,
+        "gols": 18,
+        "assistencias": 6,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 2
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 2
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 5
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Recopa Sulamericana",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
     },
     {
         "nome": "Léo Ortiz",
@@ -83,17 +178,46 @@
         "posicao": "Zagueiro",
         "bandeira": "brasil.png",
         "foto": "leoOrtiz.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "03/01/1996",
+        "naturalidade": "Porto Alegre - RS",
         "chegada": 2024,
         "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
+        "altura": "1,85m",
+        "peDominante": "Direito",
+        "jogos": 113,
+        "gols": 7,
+        "assistencias": 5,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 2
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
     },
     {
         "nome": "Danilo",
@@ -102,17 +226,42 @@
         "posicao": "Zagueiro",
         "bandeira": "brasil.png",
         "foto": "danilo.webp",
-        "nascimento": null,
-        "naturalidade": null,
-        "chegada": 2024,
+        "nascimento": "15/07/1991",
+        "naturalidade": "Bicas - MG",
+        "chegada": 2025,
         "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
+        "altura": "1,84m",
+        "peDominante": "Direito",
+        "jogos": 45,
+        "gols": 5,
+        "assistencias": 9,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 2
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
     },
     {
         "nome": "João Victor",
@@ -121,17 +270,38 @@
         "posicao": "Zagueiro",
         "bandeira": "brasil.png",
         "foto": "joaoVictor.webp",
-        "nascimento": null,
-        "naturalidade": null,
-        "chegada": null,
+        "nascimento": "01/01/2007",
+        "naturalidade": "São Paulo - SP",
+        "chegada": 2024,
         "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
+        "altura": "1,87m",
+        "peDominante": "Direito",
+        "jogos": 13,
+        "gols": 0,
+        "assistencias": 0,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 2
+            },
+            {
+                "nome": "Libertadores SUB-20",
+                "quantidade": 1
+            },
+            {
+                "nome": "Intercontinental SUB-20",
+                "quantidade": 1
+            }
+        ]
     },
     {
         "nome": "Vitão",
@@ -140,19 +310,23 @@
         "posicao": "Zagueiro",
         "bandeira": "brasil.png",
         "foto": "vitao.webp",
-        "nascimento": null,
-        "naturalidade": null,
-        "chegada": null,
+        "nascimento": "02/02/2000",
+        "naturalidade": "Jacarezinho - PR",
+        "chegada": "2026",
         "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
+        "altura": "1,85m",
+        "peDominante": "Direito",
+        "jogos": 9,
+        "gols": 0,
+        "assistencias": 0,
         "sobre": null,
-        "titulos": []
+        "titulos": [
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 1
+            }
+        ]
     },
-
     {
         "nome": "Varela",
         "nomeCompleto": "Guillermo Varela Olivera",
@@ -160,8 +334,8 @@
         "posicao": "Lateral",
         "bandeira": "uruguai.png",
         "foto": "varela.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "24/03/1993",
+        "naturalidade": "Montevidéu - URU",
         "chegada": 2022,
         "saida": null,
         "altura": null,
@@ -179,8 +353,8 @@
         "posicao": "Lateral",
         "bandeira": "brasil.png",
         "foto": "emersonRoyal.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "14/01/1999",
+        "naturalidade": "São Paulo - SP",
         "chegada": 2025,
         "saida": null,
         "altura": null,
@@ -198,8 +372,8 @@
         "posicao": "Lateral",
         "bandeira": "brasil.png",
         "foto": "ayrtonLucas.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "19/06/1997",
+        "naturalidade": "Carnaúbas dos Dantas - RN",
         "chegada": 2021,
         "saida": null,
         "altura": null,
@@ -217,8 +391,8 @@
         "posicao": "Lateral",
         "bandeira": "brasil.png",
         "foto": "alexSandro.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "26/01/1991",
+        "naturalidade": "São Paulo - SP",
         "chegada": 2024,
         "saida": null,
         "altura": null,
@@ -229,7 +403,6 @@
         "sobre": null,
         "titulos": []
     },
-
     {
         "nome": "Evertton Araujo",
         "nomeCompleto": "Evertton Gustavo Fernandes Araujo",
@@ -237,8 +410,8 @@
         "posicao": "Meio-campo",
         "bandeira": "brasil.png",
         "foto": "everttonAraujo.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "28/02/2003",
+        "naturalidade": "Volta Redonda - RJ",
         "chegada": null,
         "saida": null,
         "altura": null,
@@ -256,8 +429,8 @@
         "posicao": "Meio-campo",
         "bandeira": "chile.png",
         "foto": "erickPulgar.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "15/01/1994",
+        "naturalidade": "Antofagasta - CHI",
         "chegada": 2023,
         "saida": null,
         "altura": null,
@@ -275,8 +448,8 @@
         "posicao": "Meio-campo",
         "bandeira": "brasil.png",
         "foto": "jorginho.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "20/12/1991",
+        "naturalidade": "Imbituba - SC",
         "chegada": 2024,
         "saida": null,
         "altura": null,
@@ -295,7 +468,7 @@
         "bandeira": "uruguai.png",
         "foto": "arrascaeta.webp",
         "nascimento": "01/04/1994",
-        "naturalidade": "Carmelo - URU",
+        "naturalidade": "Nuevo Berlín - URU",
         "chegada": 2019,
         "saida": null,
         "altura": "1,77 m",
@@ -305,31 +478,31 @@
         "assistencias": null,
         "sobre": null,
         "titulos": [
-        {
-            "nome": "Libertadores",
-            "quantidade": 3
-        },
-        {
-            "nome": "Brasileirão",
-            "quantidade": 3
-        },
-        {
-            "nome": "Copa do Brasil",
-            "quantidade": 2
-        },
-        {
-            "nome": "Carioca",
-            "quantidade": 5
-        },
-        {
-            "nome": "Supercopa do Brasil",
-            "quantidade": 3
-        },
-        {
-            "nome": "Recopa Sulamericana",
-            "quantidade": 1
-        }
-    ]
+            {
+                "nome": "Libertadores",
+                "quantidade": 3
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 3
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 5
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 3
+            },
+            {
+                "nome": "Recopa Sulamericana",
+                "quantidade": 1
+            }
+        ]
     },
     {
         "nome": "De La Cruz",
@@ -338,8 +511,8 @@
         "posicao": "Meio-campo",
         "bandeira": "uruguai.png",
         "foto": "deLaCruz.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "01/06/1997",
+        "naturalidade": "Montevidéu - URU",
         "chegada": 2023,
         "saida": null,
         "altura": null,
@@ -357,8 +530,8 @@
         "posicao": "Meio-campo",
         "bandeira": "espanha.png",
         "foto": "saul.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "21/11/1994",
+        "naturalidade": "Elche - ESP",
         "chegada": 2025,
         "saida": null,
         "altura": null,
@@ -376,8 +549,8 @@
         "posicao": "Meio-campo",
         "bandeira": "colombia.png",
         "foto": "carrascal.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "25/05/1998",
+        "naturalidade": "Cartagena - COL",
         "chegada": 2024,
         "saida": null,
         "altura": null,
@@ -395,8 +568,8 @@
         "posicao": "Meio-campo",
         "bandeira": "brasil.png",
         "foto": "paqueta.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "27/08/1997",
+        "naturalidade": "Rio de Janeiro - RJ",
         "chegada": null,
         "saida": null,
         "altura": null,
@@ -407,7 +580,6 @@
         "sobre": null,
         "titulos": []
     },
-
     {
         "nome": "Bruno Henrique",
         "nomeCompleto": "Bruno Henrique Pinto",
@@ -415,8 +587,8 @@
         "posicao": "Atacante",
         "bandeira": "brasil.png",
         "foto": "brunoHenrique.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "30/12/1990",
+        "naturalidade": "Belo Horizonte - MG",
         "chegada": 2019,
         "saida": null,
         "altura": null,
@@ -426,23 +598,23 @@
         "assistencias": null,
         "sobre": null,
         "titulos": [
-        {
-            "nome": "Libertadores",
-            "quantidade": 3
-        },
-        {
-            "nome": "Brasileirão",
-            "quantidade": 3
-        },
-        {
-            "nome": "Copa do Brasil",
-            "quantidade": 2
-        },
-        {
-            "nome": "Carioca",
-            "quantidade": 5
-        }
-    ]
+            {
+                "nome": "Libertadores",
+                "quantidade": 3
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 3
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 5
+            }
+        ]
     },
     {
         "nome": "Pedro",
@@ -451,8 +623,8 @@
         "posicao": "Atacante",
         "bandeira": "brasil.png",
         "foto": "pedro.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "20/06/1997",
+        "naturalidade": "Rio de Janeiro - RJ",
         "chegada": 2020,
         "saida": null,
         "altura": null,
@@ -470,11 +642,11 @@
         "posicao": "Atacante",
         "bandeira": "brasil.png",
         "foto": "evertonCebolinha.webp",
-        "nascimento": null,
-        "naturalidade": null,
-        "chegada": null,
+        "nascimento": "22/03/1996",
+        "naturalidade": "Maracanaú - CE",
+        "chegada": "2022",
         "saida": null,
-        "altura": null,
+        "altura": "1,74m",
         "peDominante": null,
         "jogos": null,
         "gols": null,
@@ -489,8 +661,8 @@
         "posicao": "Atacante",
         "bandeira": "brasil.png",
         "foto": "luizAraujo.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "02/06/1996",
+        "naturalidade": "São Paulo - SP",
         "chegada": 2022,
         "saida": null,
         "altura": null,
@@ -508,8 +680,8 @@
         "posicao": "Atacante",
         "bandeira": "equador.png",
         "foto": "plata.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "01/11/2000",
+        "naturalidade": "Guayaquil - EQU",
         "chegada": 2025,
         "saida": null,
         "altura": null,
@@ -527,8 +699,8 @@
         "posicao": "Atacante",
         "bandeira": "brasil.png",
         "foto": "wallaceYan.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "08/02/2005",
+        "naturalidade": "Rio de Janeiro - RJ",
         "chegada": null,
         "saida": null,
         "altura": null,
@@ -546,8 +718,8 @@
         "posicao": "Atacante",
         "bandeira": "brasil.png",
         "foto": "samuelLino.webp",
-        "nascimento": null,
-        "naturalidade": null,
+        "nascimento": "23/12/1999",
+        "naturalidade": "Santo André - SP",
         "chegada": 2024,
         "saida": null,
         "altura": null,

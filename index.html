@@ -11,6 +11,7 @@
     <script src="scripts/modalJogador.js" defer></script>
     <script src="scripts/cardJogador.js" defer></script>
     <script src="scripts/carrosselIdolo.js" defer></script>
+    <script src="scripts/carrosselTacas.js" defer></script>
     <title>Flamengo</title>
 </head>
 
@@ -180,6 +181,28 @@
                 </div>
             </div>
         </section>
+
+        <div class="containerTitulos" id="titulos">
+            <div class="headerTitulos">
+                <div class="badge"><span>CONQUISTAS</span></div>
+                <h1 class="tituloPrincipal"><span class="destaque">TÍTULOS</span> DO MENGÃO</h1>
+                <div class="contagemTitulos">
+                    <h1 class="totalTitulos">+100</h1>
+                    <div class="textoContagem">
+                        <p class="tituloTitulos">TÍTULOS CONQUISTADOS</p>
+                        <span class="subTitulos">#PrimeiroTetra</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carrosselTacas">
+                <div class="tacasWrapper" id="idCarrosselTacas"></div>
+                <div class="botoesCarrossel">
+                    <button class="btnCarrossel" onclick="moverCarrosselTacas(-1)">&#8592;</button>
+                    <button class="btnCarrossel" onclick="moverCarrosselTacas(1)">&#8594;</button>
+                </div>
+            </div>
+        </div>
 
     </main>
 
