@@ -32,7 +32,7 @@ fetch("assets/dados/idolos.json")
             });
         }
 
-        // gera os dots dentro de .dotsIdolos
+
         const dotsContainer = document.querySelector(".dotsIdolos");
         idolos.forEach((_, i) => {
             const dot = document.createElement("button");

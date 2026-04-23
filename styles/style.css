@@ -83,7 +83,8 @@ body {
 .titulo {
     color: var(--texto-principal);
     font-size: 40px;
-    margin-bottom: 0;
+    margin: 0;
+    padding-bottom: 5px;
     text-align: center;
     width: 100%;
 }
@@ -699,7 +700,7 @@ body {
     font-size: 15px;
 }
 
-/* foto */
+/* carrossel idolo */
 .carrosselIdolo {
     padding-left: 48px;
     flex-shrink: 0;
@@ -949,4 +950,96 @@ body {
 
 .btnDireita {
     right: 0;
+}
+
+/* homenagem */
+.containerHomenagem {
+    padding: 64px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#badgeHomenagem {
+    text-align: center;
+    margin: 0;
+}
+
+.caixaCeu {
+    position: relative;
+    background-color: #000000;
+    width: 100%;
+    min-height: 650px;
+    border-radius: 20px;
+    margin: 32px auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.estrelasGarotos {
+    position: relative;
+    width: 100%;
+    height: 420px;
+}
+
+.estrela {
+    position: absolute;
+    width: 160px;
+    height: auto;
+    filter: drop-shadow(0 0 12px rgba(232, 0, 28, 0.60));
+    transition: transform 0.3s ease, filter 0.3s ease;
+    z-index: 1;
+}
+
+.estrela:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 20px rgba(232, 0, 28, 0.90));
+}
+
+/* Linha de cima */
+#e1  { top: 20px;  left: 3%; }
+#e2  { top: 60px;  left: 20%; }
+#e3  { top: 10px;  left: 38%; }
+#e4  { top: 55px;  left: 56%; }
+#e5  { top: 15px;  left: 74%; }
+
+/* Linha de baixo */
+#e6  { top: 220px; left: 10%; }
+#e7  { top: 250px; left: 28%; }
+#e8  { top: 215px; left: 46%; }
+#e9  { top: 245px; left: 64%; }
+#e10 { top: 210px; left: 82%; }
+
+
+.rodapeCeu {
+    border-top: 1px solid var(--vermelho);
+    padding: 20px 40px 28px;
+    text-align: center;
+}
+
+#badgeRodapeHomenagem {
+        animation: batida 15s ease-out infinite;
+}
+
+.pontinho {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    animation: piscar ease-in-out infinite;
+    pointer-events: none;
+    z-index: 0;
+}
+
+@keyframes piscar {
+    0%, 100% {
+        opacity: 0.1; 
+        transform: scale(1); 
+    }
+    50% { 
+        opacity: 1;   
+        transform: scale(1.5); 
+    }
 }
