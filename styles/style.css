@@ -8,7 +8,7 @@
 :root {
     /* vermelhos*/
     --vermelho: #E8001C;
-    --vermelho-suave: rgba(232, 0, 28, 0.08);
+    --vermelho-suave: rgba(232, 0, 27, 0.233);
     --vermelho-borda: rgba(232, 0, 28, 0.35);
 
     /*fundos */
@@ -1000,18 +1000,56 @@ body {
 }
 
 /* Linha de cima */
-#e1  { top: 20px;  left: 3%; }
-#e2  { top: 60px;  left: 20%; }
-#e3  { top: 10px;  left: 38%; }
-#e4  { top: 55px;  left: 56%; }
-#e5  { top: 15px;  left: 74%; }
+#e1 {
+    top: 20px;
+    left: 3%;
+}
+
+#e2 {
+    top: 60px;
+    left: 20%;
+}
+
+#e3 {
+    top: 10px;
+    left: 38%;
+}
+
+#e4 {
+    top: 55px;
+    left: 56%;
+}
+
+#e5 {
+    top: 15px;
+    left: 74%;
+}
 
 /* Linha de baixo */
-#e6  { top: 220px; left: 10%; }
-#e7  { top: 250px; left: 28%; }
-#e8  { top: 215px; left: 46%; }
-#e9  { top: 245px; left: 64%; }
-#e10 { top: 210px; left: 82%; }
+#e6 {
+    top: 220px;
+    left: 10%;
+}
+
+#e7 {
+    top: 250px;
+    left: 28%;
+}
+
+#e8 {
+    top: 215px;
+    left: 46%;
+}
+
+#e9 {
+    top: 245px;
+    left: 64%;
+}
+
+#e10 {
+    top: 210px;
+    left: 82%;
+}
 
 
 .rodapeCeu {
@@ -1021,7 +1059,7 @@ body {
 }
 
 #badgeRodapeHomenagem {
-        animation: batida 15s ease-out infinite;
+    animation: batida 15s ease-out infinite;
 }
 
 .pontinho {
@@ -1034,12 +1072,195 @@ body {
 }
 
 @keyframes piscar {
-    0%, 100% {
-        opacity: 0.1; 
-        transform: scale(1); 
+
+    0%,
+    100% {
+        opacity: 0.1;
+        transform: scale(1);
     }
-    50% { 
-        opacity: 1;   
-        transform: scale(1.5); 
+
+    50% {
+        opacity: 1;
+        transform: scale(1.5);
     }
+}
+
+/* galeria */
+
+.containerGaleria {
+    padding: 64px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.filtroGaleria {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.itemFiltro {
+    background-color: var(--fundo-card);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    border: 1.5px solid #1e1e1e;
+    cursor: pointer;
+}
+
+.itemFiltro:hover {
+    border: 1.5px solid var(--vermelho-borda);
+    filter: drop-shadow(0 0 12px rgba(232, 0, 28, 0.60));
+}
+
+.iconeFiltro {
+    width: 36px;
+    height: 36px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.tituloFiltro {
+    color: var(--texto-principal);
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.subFiltro {
+    color: var(--texto-secundario);
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+
+.filtroAtivo {
+    background-color: #3a0a0a;
+    border: 1.5px solid var(--vermelho-borda);
+    filter: drop-shadow(0 0 12px rgba(232, 0, 28, 0.60));
+}
+
+.filtroAtivo .iconeFiltro {
+    background-color: #3a0000;
+}
+
+.filtroAtivo .tituloFiltro,
+.filtroAtivo .subFiltro {
+    color: var(--vermelho);
+}
+
+.gridGaleria {
+    display: grid;
+    grid-template-columns: repeat(2, 480px);
+    gap: 10px;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.itemGaleria {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.imgGaleria {
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+    border: none;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.overlayGaleria {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, transparent 60%);
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: end;
+    padding: 16px 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.itemGaleria:hover {
+    transform: scale(1.02);
+    border: 1px solid var(--vermelho);
+    filter: drop-shadow(0 0 14px rgba(232, 0, 28, 0.70));   
+}
+
+.itemGaleria:hover .overlayGaleria {
+    opacity: 1;
+}
+
+.badgeGaleria span {
+    display: inline-block;
+    background-color: var(--vermelho-suave);
+    color: var(--vermelho);
+    border: 1px solid var(--vermelho-borda);
+    box-shadow: var(--neon-m);
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.tituloGaleria {
+    color: var(--texto-principal);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.subGaleria {
+    color: var(--texto-secundario);
+    font-size: 15px;
+}
+
+.rodapeGaleria {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--texto-principal);
+    font-weight: bold;
+}
+
+.botaoGaleria {
+    width: 200px;
+    height: 45px;
+    border: 1px solid var(--texto-principal);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.botaoGaleria:hover {
+    background-color: var(--texto-principal);
+    color: var(--fundo-pagina);
 }
