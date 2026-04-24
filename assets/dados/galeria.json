@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "src": "golBi.jpg",
+        "gif": "golBi.gif",
+        "categoria": "gols",
+        "badge": "LIBERTADORES • FINAL",
+        "titulo": "O momento que parou o Brasil",
+        "descricao": "Momento do gol do Bi da Liberta",
+        "data": "2019"
+    },
+    {
+        "id": 2,
+        "src": "gabigolFinal.jpg",
+        "gif": "",
+        "categoria": "comemoracoes",
+        "badge": "LIBERTADORES • FINAL",
+        "titulo": "Predestinado",
+        "descricao": "Gabigol comemorando o gol do Tri da Liberta",
+        "data": "2022"
+    },
+    {
+        "id": 3,
+        "src": "daniloFinal.jfif",
+        "gif": "",
+        "categoria": "comemoracoes",
+        "badge": "LIBERTADORES • FINAL",
+        "titulo": "Ninguém morre nos devendo",
+        "descricao": "Danilo comemorando o gol do tetra",
+        "data": "2025"
+    },
+    {
+        "id": 4,
+        "src": "golTetra.jpg",
+        "gif": "",
+        "categoria": "gols",
+        "badge": "LIBERTADORES • FINAL",
+        "titulo": "Primeiro Tetra",
+        "descricao": "Momento do gol do Tetra da Liberta",
+        "data": "2025"
+    },
+
+    {
+        "id": 5,
+        "src": "golBi.jpg",
+        "gif": "",
+        "categoria": "gols",
+        "badge": "LIBERTADORES • FINAL",
+        "titulo": "O momento que parou o Brasil",
+        "descricao": "Momento do gol do Bi da Liberta",
+        "data": "2019"
+    },
+    {
+        "id": 6,
+        "src": "gabigolFinal.jpg",
+        "gif": "",
+        "categoria": "comemoracoes",
+        "badge": "LIBERTADORES • FINAL",
+        "titulo": "Predestinado",
+        "descricao": "Gabigol comemorando o gol do Tri da Liberta",
+        "data": "2022"
+    },
+    {
+        "id": 7,
+        "src": "daniloFinal.jfif",
+        "gif": "",
+        "categoria": "comemoracoes",
+        "badge": "LIBERTADORES • FINAL",
+        "titulo": "Ninguém morre nos devendo",
+        "descricao": "Danilo comemorando o gol do tetra",
+        "data": "2025"
+    },
+    {
+        "id": 8,
+        "src": "golTetra.jpg",
+        "gif": "",
+        "categoria": "gols",
+        "badge": "LIBERTADORES • FINAL",
+        "titulo": "Primeiro Tetra",
+        "descricao": "Momento do gol do Tetra da Liberta",
+        "data": "2025"
+    }
+]

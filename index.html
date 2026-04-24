@@ -13,6 +13,7 @@
     <script src="scripts/carrosselIdolo.js" defer></script>
     <script src="scripts/carrosselTacas.js" defer></script>
     <script src="scripts/estrelasHomenagem.js" defer></script>
+    <script src="scripts/cardGaleria.js" defer></script>
     <title>Flamengo</title>
 </head>
 
@@ -136,6 +137,20 @@
         <section class="containerElenco" id="elenco">
             <h1 class="titulo">ELENCO</h1>
             <p class="subTitulo">Plantel completo do Clube de Regatas do Flamengo para a temporada 2026</p>
+
+            <div class="filtroElenco">
+                <button class="filtroElencoBtn filtroElencoAtivo" data-posicao="todos">TODOS</button>
+                <button class="filtroElencoBtn" data-posicao="Goleiro">GOLEIROS</button>
+                <button class="filtroElencoBtn" data-posicao="Zagueiro">ZAGUEIROS</button>
+                <button class="filtroElencoBtn" data-posicao="Lateral">LATERAIS</button>
+                <button class="filtroElencoBtn" data-posicao="Meio-campo">MEIO-CAMPO</button>
+                <button class="filtroElencoBtn" data-posicao="Atacante">ATACANTES</button>
+
+                <div class="filtroSeparador"></div>
+
+                <button class="filtroElencoBtn" id="btnOrdenar">↑ Nº CAMISA</button>
+            </div>
+
             <div class="elenco"></div>
         </section>
 
@@ -247,39 +262,39 @@
             <p class="subTitulo">Veja sobre a história de alguns ídolos do clube</p>
 
             <div class="filtroGaleria">
-                <div class="itemFiltro filtroAtivo" id="f1">
+                <div class="itemFiltro filtroAtivo" data-categoria="todos">
                     <img src="assets/images/icons/icon-todos.png" alt="" class="iconeFiltro">
                     <div class="textoFiltro">
                         <p class="tituloFiltro">TODOS</p>
-                        <span class="subFiltro">48 Fotos</span>
+                        <span class="subFiltro"></span>
                     </div>
                 </div>
-                <div class="itemFiltro" id="f2">
+                <div class="itemFiltro" data-categoria="titulos">
                     <img src="assets/images/icons/icon-titulos.png" alt="" class="iconeFiltro">
                     <div class="textoFiltro">
                         <p class="tituloFiltro">TÍTULOS</p>
-                        <span class="subFiltro">18 Fotos</span>
+                        <span class="subFiltro"></span>
                     </div>
                 </div>
-                <div class="itemFiltro" id="f3">
+                <div class="itemFiltro" data-categoria="gols">
                     <img src="assets/images/icons/icon-gols.png" alt="" class="iconeFiltro">
                     <div class="textoFiltro">
                         <p class="tituloFiltro">GOLS</p>
-                        <span class="subFiltro">10 Fotos</span>
+                        <span class="subFiltro"></span>
                     </div>
                 </div>
-                <div class="itemFiltro" id="f4">
+                <div class="itemFiltro" data-categoria="torcida">
                     <img src="assets/images/icons/icon-torcedores.png" alt="" class="iconeFiltro">
                     <div class="textoFiltro">
                         <p class="tituloFiltro">TORCIDA</p>
-                        <span class="subFiltro">10 Fotos</span>
+                        <span class="subFiltro"></span>
                     </div>
                 </div>
-                <div class="itemFiltro" id="f5">
+                <div class="itemFiltro" data-categoria="comemoracoes">
                     <img src="assets/images/icons/icon-comemoracoes.png" alt="" class="iconeFiltro">
                     <div class="textoFiltro">
                         <p class="tituloFiltro">COMEMORAÇÕES</p>
-                        <span class="subFiltro">10 Fotos</span>
+                        <span class="subFiltro"></span>
                     </div>
                 </div>
             </div>
@@ -326,13 +341,13 @@
             </div>
 
             <div class="rodapeGaleria">
-                <span>exibindo <span class="destaque">4</span> de <span class="destaque">48</span> fotos</span>
-                <div class="botaoGaleria">VER MAIS FOTOS</div>
+                <span id="contadorGaleria"></span>
+                <button class="btnGaleria" id="btnVerMais">VER MAIS FOTOS</button>
             </div>
         </section>
     </main>
 
-    <!-- modal -->
+    <!-- modal jogador -->
     <div class="overlayModal" id="overlayModal">
         <div class="modalJogador">
 
@@ -409,9 +424,52 @@
                     <span class="tituloModal">TÍTULOS PELO FLAMENGO</span>
                     <div class="titulosGrid" id="titulosGrid"></div>
                 </div>
-
             </div>
+
         </div>
+    </div>
+
+    <!-- modal galeria -->
+    <div class="overlayModal" id="overlayModalGaleria">
+
+        <button class="navBtnFlutuante" id="btnAnterior">&#8249;</button>
+
+        <div class="modalGaleria">
+
+            <div class="modalGaleriaEsquerda">
+                <img src="" alt="" id="modalGaleriaFoto">
+                <button class="btnGif" id="btnGif" style="display:none">▶ VER O GOL</button>
+                <div class="modalGaleriaNav">
+                    <span class="navContador" id="navContador">1 / 4</span>
+                </div>
+            </div>
+
+            <div class="modalGaleriaDireita">
+                <div class="modalHeader">
+                    <div class="modalIdentidade">
+                        <span class="badgeCategoria" id="modalGaleriaCategoria"></span>
+                        <h1 class="modalApelido" id="modalGaleriaTitulo"></h1>
+                        <div class="modalSub">
+                            <span class="modalNomeCompleto" id="modalGaleriaData"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modalSobre">
+                    <span class="tituloModal">SOBRE</span>
+                    <p class="bioJogador" id="modalGaleriaDesc"></p>
+                </div>
+
+                <div class="modalThumbs">
+                    <span class="tituloModal">OUTRAS FOTOS</span>
+                    <div class="thumbsGrid" id="thumbsGrid"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="navBtnFlutuante" id="btnProximo">&#8250;</button>
+
     </div>
 
 </body>
