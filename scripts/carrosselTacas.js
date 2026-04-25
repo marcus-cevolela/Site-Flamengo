@@ -6,9 +6,10 @@ fetch("assets/dados/titulos.json")
 
         const container = document.getElementById("idCarrosselTacas");
 
-        titulos.forEach(titulo => {
+        titulos.forEach((titulo, indice) => {
             const card = document.createElement("div");
             card.classList.add("cardTitulo");
+            card.dataset.indice = indice;
             card.innerHTML = `
                 <h1 class="nomeTitulo">${titulo.nome.toUpperCase()}</h1>
                 <img class="imgTaca" id="taca${titulo.nome.trim().replace(/\s+/g, '')}" src="assets/images/tacas/${titulo.foto}" alt="${titulo.nome}">
@@ -36,6 +37,28 @@ fetch("assets/dados/titulos.json")
             }
         });
 
+        container.addEventListener("click", function(e) {
+            const card = e.target.closest(".cardTitulo");
+            if (!card || card.classList.contains("ativo")) return;
+
+            if (card.classList.contains("lateral")) {
+                const indiceClicado = parseInt(card.dataset.indice);
+                const totalCards = container.children.length;
+                var diff = indiceClicado - cardAtual;
+                if (diff > totalCards / 2) diff = diff - totalCards;
+                if (diff < -totalCards / 2) diff = diff + totalCards;
+                moverCarrosselTacas(diff > 0 ? 1 : -1);
+
+            } else if (card.classList.contains("longe")) {
+                const indiceClicado = parseInt(card.dataset.indice);
+                const totalCards = container.children.length;
+                var diff = indiceClicado - cardAtual;
+                if (diff > totalCards / 2) diff = diff - totalCards;
+                if (diff < -totalCards / 2) diff = diff + totalCards;
+                moverCarrosselTacas(diff > 0 ? 2 : -2);
+            }
+        });
+
     });
 
 function atualizarCarrosselTacas() {
@@ -51,38 +74,23 @@ function atualizarCarrosselTacas() {
         if (posicao > 2) posicao = posicao - total;
         var slot = posicao + 2;
 
+        if (slot < 0 || slot > 4) {
+            cards[i].className = "cardTitulo";
+            cards[i].style.pointerEvents = "none";
+            continue;
+        }
+
+        cards[i].style.pointerEvents = "auto";
         cards[i].style.transform = "translateX(" + deslocamentos[slot] + "px) scale(" + escalas[slot] + ")";
         cards[i].style.zIndex = slot == 2 ? 5 : slot == 1 || slot == 3 ? 2 : 1;
         cards[i].className = "cardTitulo " + classes[slot];
-
-        if (slot == 2) {
-            cards[i].style.bottom = "1rem";
-        } else {
-            cards[i].style.bottom = "0";
-        }
+        cards[i].dataset.indice = i;
+        cards[i].style.bottom = slot == 2 ? "1rem" : "0";
     }
 }
 
 function moverCarrosselTacas(direcao) {
     var total = document.getElementById("idCarrosselTacas").children.length;
-    cardAtual = cardAtual + direcao;
-    if (cardAtual < 0) cardAtual = total - 1;
-    if (cardAtual >= total) cardAtual = 0;
+    cardAtual = ((cardAtual + direcao) % total + total) % total;
     atualizarCarrosselTacas();
 }
-
-document.getElementById("idCarrosselTacas").addEventListener("click", function(e) {
-    var card = e.target.closest(".cardTitulo");
-    if (!card || card.classList.contains("ativo")) return;
-
-    var cards = document.getElementById("idCarrosselTacas").children;
-    for (var i = 0; i < cards.length; i++) {
-        if (cards[i] == card) {
-            var diff = i - cardAtual;
-            if (diff > 2) diff = diff - cards.length;
-            if (diff < -2) diff = diff + cards.length;
-            moverCarrosselTacas(diff);
-            break;
-        }
-    }
-});

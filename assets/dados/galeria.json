@@ -1,83 +1,225 @@
 [
     {
         "id": 1,
-        "src": "golBi.jpg",
-        "gif": "golBi.gif",
-        "categoria": "gols",
-        "badge": "LIBERTADORES • FINAL",
-        "titulo": "O momento que parou o Brasil",
-        "descricao": "Momento do gol do Bi da Liberta",
-        "data": "2019"
+        "src": "titulos/mundial81.png",
+        "gif": "",
+        "categoria": "titulos",
+        "badge": "MUNDIAL • TÍTULO",
+        "titulo": "O Dia em que o Mundo Parou",
+        "descricao": "Em Tóquio, o Flamengo derrotou o Liverpool e se consagrou campeão mundial. O rubro-negro chegou ao topo do mundo.",
+        "data": "1981"
     },
     {
         "id": 2,
-        "src": "gabigolFinal.jpg",
+        "src": "titulos/brasileiro09.png",
         "gif": "",
-        "categoria": "comemoracoes",
-        "badge": "LIBERTADORES • FINAL",
-        "titulo": "Predestinado",
-        "descricao": "Gabigol comemorando o gol do Tri da Liberta",
-        "data": "2022"
+        "categoria": "titulos",
+        "badge": "BRASILEIRO • TÍTULO",
+        "titulo": "Hexa na Raça",
+        "descricao": "Após 17 anos sem o título nacional, o Mengão voltou a ser campeão brasileiro com uma campanha histórica e inesquecível.",
+        "data": "2009"
     },
     {
         "id": 3,
-        "src": "daniloFinal.jfif",
+        "src": "titulos/cdb13.png",
         "gif": "",
-        "categoria": "comemoracoes",
-        "badge": "LIBERTADORES • FINAL",
-        "titulo": "Ninguém morre nos devendo",
-        "descricao": "Danilo comemorando o gol do tetra",
-        "data": "2025"
+        "categoria": "titulos",
+        "badge": "COPA DO BRASIL • TÍTULO",
+        "titulo": "A Taça Voltou pra Casa",
+        "descricao": "Em uma final épica contra o Athletico-PR, o Flamengo conquistou sua terceira Copa do Brasil e segurou a taça mais uma vez.",
+        "data": "2013"
     },
     {
         "id": 4,
-        "src": "golTetra.jpg",
+        "src": "titulos/supercopa25.png",
         "gif": "",
-        "categoria": "gols",
-        "badge": "LIBERTADORES • FINAL",
-        "titulo": "Primeiro Tetra",
-        "descricao": "Momento do gol do Tetra da Liberta",
+        "categoria": "titulos",
+        "badge": "SUPERCOPA DO BRASIL • TÍTULO",
+        "titulo": "Chora, Manequinho",
+        "descricao": "Numa tarde de chuva torrencial, o Flamengo desmontou o Botafogo e levantou a Supercopa do Brasil. Nem o tempo conseguiu apagar o brilho rubro-negro.",
+        "data": "2025"
+    },
+    {
+        "id": 5,
+        "src": "titulos/libertadores25.png",
+        "gif": "",
+        "categoria": "titulos",
+        "badge": "LIBERTADORES • TÍTULO",
+        "titulo": "Primeiro Tetra do Brasil",
+        "descricao": "O Flamengo entrou para a história ao conquistar o tetracampeonato da Libertadores, feito inédito para um clube brasileiro.",
         "data": "2025"
     },
 
     {
-        "id": 5,
-        "src": "golBi.jpg",
-        "gif": "",
-        "categoria": "gols",
-        "badge": "LIBERTADORES • FINAL",
-        "titulo": "O momento que parou o Brasil",
-        "descricao": "Momento do gol do Bi da Liberta",
-        "data": "2019"
-    },
-    {
         "id": 6,
-        "src": "gabigolFinal.jpg",
-        "gif": "",
-        "categoria": "comemoracoes",
-        "badge": "LIBERTADORES • FINAL",
-        "titulo": "Predestinado",
-        "descricao": "Gabigol comemorando o gol do Tri da Liberta",
-        "data": "2022"
+        "src": "gols/golHexa.png",
+        "gif": "gols/golHexa.gif",
+        "categoria": "gols",
+        "badge": "BRASILEIRO • 38ª RODADA",
+        "titulo": "O Gol que Encerrou 17 Anos de Espera",
+        "descricao": "Na última rodada do Brasileirão, o Flamengo selou o hexacampeonato nacional com um gol que fez a Nação explodir de alegria.",
+        "data": "2009"
     },
     {
         "id": 7,
-        "src": "daniloFinal.jfif",
-        "gif": "",
-        "categoria": "comemoracoes",
+        "src": "gols/golBi.png",
+        "gif": "gols/golBi.gif",
+        "categoria": "gols",
         "badge": "LIBERTADORES • FINAL",
-        "titulo": "Ninguém morre nos devendo",
-        "descricao": "Danilo comemorando o gol do tetra",
-        "data": "2025"
+        "titulo": "Gabigol e o Grito que Parou o Brasil",
+        "descricao": "Nos acréscimos da final em Lima, Gabigol marcou o segundo gol e devolveu a Libertadores ao Flamengo após 38 anos de espera.",
+        "data": "2019"
     },
     {
         "id": 8,
-        "src": "golTetra.jpg",
-        "gif": "",
+        "src": "gols/golTri.png",
+        "gif": "gols/golTri.gif",
         "categoria": "gols",
         "badge": "LIBERTADORES • FINAL",
-        "titulo": "Primeiro Tetra",
-        "descricao": "Momento do gol do Tetra da Liberta",
+        "titulo": "A Tarde de Guayaquil",
+        "descricao": "Em uma final dramática no Equador, Gabigol voltou a ser protagonista e garantiu o tricampeonato da Libertadores para a Nação.",
+        "data": "2022"
+    },
+    {
+        "id": 9,
+        "src": "gols/golTetra.png",
+        "gif": "gols/golTetra.gif",
+        "categoria": "gols",
+        "badge": "LIBERTADORES • FINAL",
+        "titulo": "O Gol do Tetra",
+        "descricao": "Mais um vez em Lima, o Flamengo conquistou o inédito tetracampeonato da Libertadores com um gol que ficará eternamente na memória rubro-negra.",
+        "data": "2025"
+    },
+    {
+        "id": 10,
+        "src": "gols/arrascaCeara.png",
+        "gif": "gols/arrascaCeara.gif",
+        "categoria": "gols",
+        "badge": "BRASILEIRO • 16ª RODADA",
+        "titulo": "Bicicleta de Outro Mundo",
+        "descricao": "Em um lance de rara beleza técnica, Arrascaeta marcou um golaço de bicicleta que parou o Castelão.",
+        "data": "2019"
+    },
+    {
+        "id": 11,
+        "src": "gols/ronaldinhoFalta.png",
+        "gif": "gols/ronaldinhoFalta.gif",
+        "categoria": "gols",
+        "badge": "BRASILEIRO • 12ª RODADA",
+        "titulo": "A Falta que Mudou o Futebol",
+        "descricao": "Ronaldinho Gaúcho cobrou uma falta por baixo da barreira em um ângulo impossível. O gol foi tão genial que mudou o futebol para sempre — após esse momento, jogadores passaram a se deitar na barreira para evitar exatamente esse tipo de cobrança.",
+        "data": "2011"
+    },
+    {
+        "id": 12,
+        "src": "gols/pedroElastico.png",
+        "gif": "gols/pedroElastico.gif",
+        "categoria": "gols",
+        "badge": "BRASILEIRO • 21ª RODADA",
+        "titulo": "O Elástico e o Golaço",
+        "descricao": "Pedro deu uma aula de habilidade com um elástico desconcertante antes de finalizar com precisão. Arte pura com a camisa rubro-negra.",
+        "data": "2025"
+    },
+    
+    {
+        "id": 13,
+        "src": "torcida/infernoRubroNegro.png",
+        "gif": "",
+        "categoria": "torcida",
+        "badge": "COPA DO BRASIL • OITAVAS",
+        "titulo": "O Inferno Rubro-Negro",
+        "descricao": "Maracanã em chamas. A torcida do Flamengo criou uma atmosfera intimidadora para empurrar o time rumo à classificação na Copa do Brasil.",
+        "data": "2022"
+    },
+    {
+        "id": 14,
+        "src": "torcida/mosaico130anos.png",
+        "gif": "",
+        "categoria": "torcida",
+        "badge": "BRASILEIRO • 33ª RODADA",
+        "titulo": "130 Anos de Paixão",
+        "descricao": "Um mosaico grandioso homenageou os 130 anos do clube mais querido do Brasil. A Nação mostrou ao mundo o tamanho do seu amor.",
+        "data": "2025"
+    },
+    {
+        "id": 15,
+        "src": "torcida/mosaicoIdolos.png",
+        "gif": "",
+        "categoria": "torcida",
+        "badge": "COPA DO BRASIL • FINAL",
+        "titulo": "Eternos na Memória da Nação",
+        "descricao": "Um mosaico emocionante prestou homenagem aos maiores ídolos da história rubro-negra, imortalizados no coração de milhões de torcedores.",
+        "data": "2023"
+    },
+    {
+        "id": 16,
+        "src": "torcida/reiDeCopas.png",
+        "gif": "",
+        "categoria": "torcida",
+        "badge": "BRASILEIRO • 37ª RODADA",
+        "titulo": "O Rei de Copas",
+        "descricao": "Logo após a conquista da Libertadores, a torcida criou uma festa apoteótica no Maracanã para celebrar o clube mais vitorioso das Américas.",
+        "data": "2025"
+    },
+    {
+        "id": 17,
+        "src": "torcida/trio2019.png",
+        "gif": "",
+        "categoria": "torcida",
+        "badge": "LIBERTADORES • COMEMORAÇÃO",
+        "titulo": "O Mar Rubro-Negro",
+        "descricao": "Após 38 anos de espera, os torcedores tomaram as ruas do Rio em uma das maiores festas da história do futebol brasileiro.",
+        "data": "2019"
+    },
+
+    {
+        "id": 18,
+        "src": "comemoracoes/petkovicCarioca.png",
+        "gif": "",
+        "categoria": "comemoracoes",
+        "badge": "CARIOCA • COMEMORAÇÃO",
+        "titulo": "A Falta que Parou o Rio",
+        "descricao": "Nos últimos instantes da final do Campeonato Carioca, Petkovic cobrou uma falta magistral e decidiu o clássico contra o Vasco. Um gol no último lance que entrou para sempre na história do clássico.",
+        "data": "2001"
+    },
+    {
+        "id": 19,
+        "src": "comemoracoes/xgremio2019.png",
+        "gif": "",
+        "categoria": "comemoracoes",
+        "badge": "LIBERTADORES • COMEMORAÇÃO",
+        "titulo": "O Trem Rubro-Negro",
+        "descricao": "Na semifinal da Libertadores de 2019 contra o Grêmio, os jogadores comemoraram como um trem, simbolizando a força imparável do Mengão naquele ano.",
+        "data": "2019"
+    },
+    {
+        "id": 20,
+        "src": "comemoracoes/xvasco23.png",
+        "gif": "",
+        "categoria": "comemoracoes",
+        "badge": "BRASILEIRO • COMEMORAÇÃO",
+        "titulo": "Pôquer de Goleada",
+        "descricao": "No histórico 6x1 contra o Vasco, os jogadores celebraram o quarto gol com uma comemoração marcante. Uma tarde para nunca esquecer.",
+        "data": "2023"
+    },
+    {
+        "id": 21,
+        "src": "comemoracoes/gabigolFinal.png",
+        "gif": "",
+        "categoria": "comemoracoes",
+        "badge": "LIBERTADORES • COMEMORAÇÃO",
+        "titulo": "Predestinado",
+        "descricao": "Gabigol ergueu os braços mais uma vez em uma final de Libertadores. O camisa 9 parece ter nascido para momentos históricos com o manto sagrado.",
+        "data": "2022"
+    },
+    {
+        "id": 22,
+        "src": "comemoracoes/daniloFinal.png",
+        "gif": "",
+        "categoria": "comemoracoes",
+        "badge": "LIBERTADORES • COMEMORAÇÃO",
+        "titulo": "Ninguém Morre Nos Devendo",
+        "descricao": "Danilo balançou a rede de cabeça e selou mais um título continental. Uma celebração que ficou marcada na história do tetracampeonato.",
         "data": "2025"
     }
 ]

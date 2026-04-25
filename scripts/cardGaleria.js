@@ -4,11 +4,22 @@ let fotosVisiveis = 4;
 
 const basePath = 'assets/images/galeria/';
 
+function preCarregarGifs(fotos) {
+    fotos
+        .filter(f => f.gif)
+        .forEach(f => {
+            const img = new Image();
+            img.src = basePath + f.gif;
+        });
+}
+
 fetch("assets/dados/galeria.json")
     .then(res => res.json())
     .then(fotos => {
         fotosCarregadas = fotos;
         fotosFiltradas = fotos;
+
+        preCarregarGifs(fotos);
 
         document.querySelectorAll('.itemFiltro').forEach(btn => {
             const categoria = btn.dataset.categoria;
@@ -71,7 +82,7 @@ document.querySelectorAll('.itemFiltro').forEach(btn => {
     });
 });
 
-
+// ver mais
 document.getElementById('btnVerMais').addEventListener('click', () => {
     fotosVisiveis += 4;
     renderizarGrid();
@@ -86,7 +97,7 @@ function abrirModalGaleria(index, fotos) {
 
     modalFoto.src = basePath + foto.src;
 
-    // botao gif
+    // botão gif
     const temGif = foto.gif && foto.categoria === 'gols';
     btnGif.style.display = temGif ? 'block' : 'none';
     btnGif.textContent = '▶ VER O GOL';
@@ -100,9 +111,19 @@ function abrirModalGaleria(index, fotos) {
             btnGif.textContent = '▶ VER O GOL';
             btnGif.classList.remove('rodando');
         } else {
-            modalFoto.src = basePath + foto.gif;
-            btnGif.textContent = '⏹ VER A FOTO';
-            btnGif.classList.add('rodando');
+            modalFoto.classList.add('carregando');
+            btnGif.textContent = '⏳ CARREGANDO...';
+            btnGif.disabled = true;
+
+            const gifTemp = new Image();
+            gifTemp.src = basePath + foto.gif;
+            gifTemp.onload = () => {
+                modalFoto.src = basePath + foto.gif;
+                modalFoto.classList.remove('carregando');
+                btnGif.textContent = '⏹ VER A FOTO';
+                btnGif.classList.add('rodando');
+                btnGif.disabled = false;
+            };
         }
     };
 

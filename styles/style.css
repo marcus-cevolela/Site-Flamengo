@@ -641,14 +641,12 @@ body {
     opacity: 0;
 }
 
-.cardTitulo.ativo,
-.cardTitulo.lateral,
-.cardTitulo.longe {
+.cardTitulo.ativo {
     opacity: 1;
 }
 
 .cardTitulo.lateral {
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 .cardTitulo.longe {
@@ -672,7 +670,7 @@ body {
     filter: drop-shadow(0 0 12px rgba(232, 0, 28, 0.50));
 }
 
-#tacaCopadoBrasil {
+#tacaCopaDoBrasil {
     width: 200px;
 }
 
@@ -990,6 +988,7 @@ body {
 .subGaleria {
     color: var(--texto-secundario);
     font-size: 15px;
+    text-align: left;
 }
 
 .rodapeGaleria {
@@ -1273,6 +1272,7 @@ body {
     width: 580px;
     flex-shrink: 0;
     min-height: 500px;
+    position: relative;
 }
 
 .modalGaleriaEsquerda img {
@@ -1280,6 +1280,29 @@ body {
     flex: 1;
     object-fit: cover;
     object-position: center;
+    display: block;
+}
+
+.modalGaleriaFoto.carregando {
+    opacity: 0.3;
+}
+
+.loadingGif {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: 3px solid #333;
+    border-top-color: var(--vermelho);
+    border-radius: 50%;
+    animation: girar 1s linear infinite;
+    display: none;
+    z-index: 10;
+}
+
+.carregando~.loadingGif {
     display: block;
 }
 
@@ -1616,7 +1639,10 @@ body {
 /* animações*/
 @keyframes batida {
 
-    0%, 40%, 70%, 100% {
+    0%,
+    40%,
+    70%,
+    100% {
         transform: scale(1);
     }
 
@@ -1624,7 +1650,8 @@ body {
         transform: scale(1.05);
     }
 
-    50%, 80% {
+    50%,
+    80% {
         transform: scale(1.05);
     }
 }
@@ -1654,6 +1681,12 @@ body {
     50% {
         opacity: 0.4;
         transform: scale(0.8);
+    }
+}
+
+@keyframes girar {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
     }
 }
 
