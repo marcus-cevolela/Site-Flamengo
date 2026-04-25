@@ -7,12 +7,12 @@
     /*fundos */
     --fundo-pagina: #0A0A0A;
     --fundo-card: #111111;
-    --fundo-navbar: #E8001C;
+    --fundo-navbar: #000000;
 
     /* textos */
     --texto-principal: #FFFFFF;
     --texto-secundario: rgba(255, 255, 255, 0.40);
-    --texto-navbar: #000000;
+    --texto-navbar: rgba(255, 255, 255, 0.40);
 
     /* brilhos */
     --neon-m: 0 0 10px rgba(232, 0, 28, 0.50);
@@ -20,37 +20,51 @@
     --neon-linha: 0 0 8px #E8001C, 0 0 20px rgba(232, 0, 28, 0.40);
 }
 
-
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    padding: 0;
+    padding-top: 80px;
     font-family: 'Segoe UI', Arial, sans-serif;
     background-color: var(--fundo-pagina);
     overflow-x: hidden;
 }
 
-/* ── NAVBAR PC ── */
+/* navbar pc */
 .navbar {
-    position: relative;
     background: var(--fundo-navbar);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.281);
-    height: 72px;
+    height: 80px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    overflow: visible;
+    padding: 0 40px;
+    border-bottom: 1px solid #1a1a1a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.3s ease, background 0.3s ease;
+    border-bottom: 2px solid var(--vermelho);
+    box-shadow: var(--neon-g);
+}
+
+.navbar.hidden {
+    transform: translateY(-100%);
+}
+
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
 }
 
 .menu {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 0;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -58,63 +72,97 @@ body {
     height: 100%;
 }
 
-.menu li a {
-    font-size: 18px;
-    color: var(--texto-navbar);
-    text-decoration: none;
-    padding: 0 20px;
-}
-
-.menu li:not(:has(.escudo)) a:hover {
-    color: #000;
-    border-bottom: 3px solid #000;
-    background-color: #C4001A;
-}
-
-.menu li:not(:has(.escudo)) a.active {
-    font-weight: 500;
-    color: #000;
-}
-
-.menu li:has(.escudo) {
-    position: static;
-    top: unset;
-    left: unset;
-    transform: unset;
-}
-.logo-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 8px;
-    height: 100%;
-}
-
-.escudo {
-    width: 120px;
-    height: 120px;
-    object-fit: contain;
-    display: block;
-    margin-top: 70px;
-    transition: transform 0.2s ease;
-}
-
-.escudo:hover {
-    transform: scale(1.05);
-}
-
-.logo-gap {
-    width: 0;
+.marcaClube {
     flex-shrink: 0;
 }
 
-/* ── MENU CELULAR ── */
+.linkMarca {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.escudoMarca {
+    width: 50px;
+    height: 60px;
+}
+
+.textoMarca {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.nomeMarca {
+    font-size: 18px;
+    font-weight:900;
+    color: var(--texto-principal);
+}
+
+.subMarca {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--texto-secundario);
+}
+
+.espacador {
+    flex: 1;
+}
+
+.linksMenu {
+    display: flex;
+    align-items: center;
+}
+
+.linksMenu a {
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.45);
+    text-decoration: none;
+    padding: 0 18px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.linksMenu a:hover {
+    color: var(--vermelho);
+    transform: scale(1.1);
+}
+
+.itemMenu::after {
+    content: "";
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    width: 60%;
+    height: 2px;
+    background: var(--vermelho);
+    transition: transform 0.3s ease;
+    border-radius: 2px;
+}
+
+.linksMenu a:hover::after {
+    transform: translateX(-50%) scaleX(1);
+    box-shadow: var(--neon-linha);
+}
+
+.linksMenu a.active {
+    color: var(--vermelho);
+}
+
+/* menu mobile */
 .menu-toggle {
     display: none;
     font-size: 28px;
-    color: var(--texto-navbar);
+    color: var(--texto-principal);
     cursor: pointer;
-    font-weight: bold;
     position: absolute;
     left: 25px;
     z-index: 50;
@@ -129,10 +177,7 @@ body {
 }
 
 .logo-nav-mobile img {
-    width: 55px;
-    height: 55px;
-    object-fit: contain;
-    display: block;
+    width: 40px;
 }
 
 .menu-mobile {
@@ -141,12 +186,12 @@ body {
     left: 0;
     height: 100%;
     width: 260px;
-    background-color: var(--fundo-navbar);
-    z-index: 200;
+    background-color: #000000;
+    z-index: 1002;
     list-style: none;
     padding-top: 20px;
-    margin: 0;
     border-radius: 0 15px 15px 0;
+    border-right: 1px solid #1a1a1a;
     transform: translateX(-100%);
     transition: transform 0.3s ease;
 }
@@ -160,34 +205,53 @@ body {
     justify-content: center;
     margin-bottom: 10px;
     padding: 10px 0 20px;
-    border-bottom: 1px solid var(--vermelho-borda);
+    border-bottom: 1px solid #1a1a1a;
 }
 
 .logo-menu-mobile img {
-    width: 90px;
-    height: 90px;
-    object-fit: contain;
+    width: 70px;
 }
 
+/* LINKS MOBILE */
 .menu-mobile li a {
+    position: relative;
     display: block;
-    padding: 12px 20px;
-    color: var(--texto-navbar);
-    font-weight: 600;
+    padding: 14px 24px;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 12px;
+    text-transform: uppercase;
     text-decoration: none;
+    border-bottom: 1px solid #1a1a1a;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
 .menu-mobile li a:hover {
-    color: #000;
-    border-bottom: 2px solid #000;
+    color: var(--vermelho);
+    letter-spacing: 0.08em;
+}
+
+.menu-mobile li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: var(--vermelho);
+    transition: width 0.3s ease;
+}
+
+.menu-mobile li a:hover::after {
+    width: 100%;
 }
 
 .overlay {
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    z-index: 100;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1001;
 }
 
 .overlay.ativo {
@@ -195,24 +259,32 @@ body {
 }
 
 .footernavbar {
-    text-align: left;
-    color: var(--texto-navbar);
-    font-weight: 600;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 11px;
     position: fixed;
-    bottom: 65px;
+    bottom: 24px;
     left: 20px;
-    padding: 20px;
 }
 
-/* media query p celular */
+/* responsividade */
 @media (max-width: 768px) {
+    body {
+        padding-top: 56px;
+    }
+
     .menu {
         display: none;
     }
+
     .menu-toggle {
         display: block;
     }
+
     .logo-nav-mobile {
         display: block;
+    }
+
+    .navbar {
+        height: 56px;
     }
 }
