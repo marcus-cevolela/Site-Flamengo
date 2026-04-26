@@ -1338,25 +1338,19 @@ body {
 }
 
 .navBtnFlutuante {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid #2a2a2a;
-    color: var(--texto-principal);
-    width: 40px;
-    height: 40px;
-    border-radius: 8px;
-    font-size: 24px;
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 100px;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s;
+    line-height: 1;
+    transition: color 0.2s;
+    padding: 0 8px;
     flex-shrink: 0;
 }
 
 .navBtnFlutuante:hover {
-    border-color: var(--vermelho);
     color: var(--vermelho);
-    background: rgba(232, 0, 28, 0.08);
 }
 
 .navContador {

@@ -46,7 +46,7 @@ function renderizarGrid() {
 
     const fatia = fotosFiltradas.slice(0, fotosVisiveis);
 
-    fatia.forEach((foto, index) => {
+    fatia.forEach((foto) => {
         const item = document.createElement('div');
         item.classList.add('itemGaleria');
 
@@ -63,7 +63,7 @@ function renderizarGrid() {
             </div>
         `;
 
-        item.addEventListener('click', () => abrirModalGaleria(index, fatia));
+        item.addEventListener('click', () => abrirModalGaleria(foto.id, fotosFiltradas));
         grid.appendChild(item);
     });
 
@@ -99,8 +99,12 @@ document.getElementById('btnVerMais').addEventListener('click', () => {
 });
 
 // modal
-function abrirModalGaleria(index, fotos) {
+function abrirModalGaleria(id, fotos) {
+    const index = fotos.findIndex(f => f.id === id);
     const foto = fotos[index];
+
+    if (!foto) return;
+
     const overlay = document.getElementById('overlayModalGaleria');
     const modalFoto = document.getElementById('modalGaleriaFoto');
     const btnGif = document.getElementById('btnGif');
@@ -160,17 +164,19 @@ function abrirModalGaleria(index, fotos) {
         img.src = getSrc(f);
         img.classList.add('thumbItem');
         if (i === 0) img.classList.add('ativo');
-        img.addEventListener('click', () => abrirModalGaleria(
-            fotos.findIndex(ft => ft.id === f.id),
-            fotos
-        ));
+        img.addEventListener('click', () => {
+            const idxEmFotos = fotos.findIndex(ft => ft.id === f.id);
+            const contexto = idxEmFotos !== -1 ? fotos : fotosCarregadas;
+            abrirModalGaleria(f.id, contexto);
+        });
         thumbsGrid.appendChild(img);
     });
 
+    // setas
     document.getElementById('btnAnterior').onclick = () =>
-        abrirModalGaleria(index > 0 ? index - 1 : fotos.length - 1, fotos);
+        abrirModalGaleria(fotos[index > 0 ? index - 1 : fotos.length - 1].id, fotos);
     document.getElementById('btnProximo').onclick = () =>
-        abrirModalGaleria(index < fotos.length - 1 ? index + 1 : 0, fotos);
+        abrirModalGaleria(fotos[index < fotos.length - 1 ? index + 1 : 0].id, fotos);
 
     overlay.style.display = 'flex';
 }
