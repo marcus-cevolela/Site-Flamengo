@@ -53,7 +53,7 @@
     {
         "id": 6,
         "src": "gols/golHexa.png",
-        "gif": "gols/golHexa.gif",
+        "gif": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGdyOWFsY2U3cHFnNGVtbHEzazNoZmI4NTF6bzltNXVjZWM1eGUwdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DBOGuGtghNDscU1TyU/giphy.gif",
         "categoria": "gols",
         "badge": "BRASILEIRO • 38ª RODADA",
         "titulo": "O Gol que Encerrou 17 Anos de Espera",
@@ -63,7 +63,7 @@
     {
         "id": 7,
         "src": "gols/golBi.png",
-        "gif": "gols/golBi.gif",
+        "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTR0bjMxdTNyeTBhMTlnMGRlN29sanlseWptZGRnMDdqYXVsZTQxMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5VQk74R7O4o6JPlGnv/giphy.gif",
         "categoria": "gols",
         "badge": "LIBERTADORES • FINAL",
         "titulo": "Gabigol e o Grito que Parou o Brasil",
@@ -73,7 +73,7 @@
     {
         "id": 8,
         "src": "gols/golTri.png",
-        "gif": "gols/golTri.gif",
+        "gif": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWFvMWRhMDJvdTc3MnFvejFzdmk5eTMweTBua3F3b3pueHBqNjNzMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/92cd9HPujdYCPZU2xo/giphy.gif",
         "categoria": "gols",
         "badge": "LIBERTADORES • FINAL",
         "titulo": "A Tarde de Guayaquil",
@@ -83,7 +83,7 @@
     {
         "id": 9,
         "src": "gols/golTetra.png",
-        "gif": "gols/golTetra.gif",
+        "gif": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHhwdHRscjAxZDc2c3B6cHZhbXNmbnM5bHN4MHVsaHE0NTU4dnd2ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/f72ev1xNYMjRF5iIih/giphy.gif",
         "categoria": "gols",
         "badge": "LIBERTADORES • FINAL",
         "titulo": "O Gol do Tetra",
@@ -93,7 +93,7 @@
     {
         "id": 10,
         "src": "gols/arrascaCeara.png",
-        "gif": "gols/arrascaCeara.gif",
+        "gif": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2FtOTMxNHBhaml4ZGZzY2t3ZTZjdnFwb3AwZ3RrMzU1aTlhaWk2ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3yAYumt6isFUTJO7MD/giphy.gif",
         "categoria": "gols",
         "badge": "BRASILEIRO • 16ª RODADA",
         "titulo": "Bicicleta de Outro Mundo",
@@ -103,7 +103,7 @@
     {
         "id": 11,
         "src": "gols/ronaldinhoFalta.png",
-        "gif": "gols/ronaldinhoFalta.gif",
+        "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGpoNzRrd2xxY2xvdW1tOHJqZTNjbWJ5Mzl2dDF0c2ZhODdkeTBoayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1Self7kHIstTnZvpAt/giphy.gif",
         "categoria": "gols",
         "badge": "BRASILEIRO • 12ª RODADA",
         "titulo": "A Falta que Mudou o Futebol",
@@ -113,7 +113,7 @@
     {
         "id": 12,
         "src": "gols/pedroElastico.png",
-        "gif": "gols/pedroElastico.gif",
+        "gif": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExczFvcmt0aHBydGt5dmJpYTNwNmo2N3Ntb2E2YnpmMXI3djh4aHRkcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CnolEF3yk09ueYfe4z/giphy.gif",
         "categoria": "gols",
         "badge": "BRASILEIRO • 21ª RODADA",
         "titulo": "O Elástico e o Golaço",

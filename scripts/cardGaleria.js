@@ -4,12 +4,20 @@ let fotosVisiveis = 4;
 
 const basePath = 'assets/images/galeria/';
 
+function getSrc(foto) {
+    return basePath + foto.src;
+}
+
+function getGif(foto) {
+    return foto.gif.startsWith('http') ? foto.gif : basePath + foto.gif;
+}
+
 function preCarregarGifs(fotos) {
     fotos
         .filter(f => f.gif)
         .forEach(f => {
             const img = new Image();
-            img.src = basePath + f.gif;
+            img.src = getGif(f);
         });
 }
 
@@ -17,7 +25,7 @@ fetch("assets/dados/galeria.json")
     .then(res => res.json())
     .then(fotos => {
         fotosCarregadas = fotos;
-        fotosFiltradas = fotos;
+        fotosFiltradas = [...fotos].sort(() => Math.random() - 0.5);
 
         preCarregarGifs(fotos);
 
@@ -45,7 +53,7 @@ function renderizarGrid() {
         const isGol = foto.categoria === 'gols' && foto.gif;
 
         item.innerHTML = `
-            <img src="${basePath}${foto.src}" class="imgGaleria" alt="${foto.titulo}">
+            <img src="${getSrc(foto)}" class="imgGaleria" alt="${foto.titulo}">
             <div class="overlayGaleria">
                 <div class="badgeGaleria ${isGol ? 'badgeGol' : ''}">
                     <span>${isGol ? '● GOL' : foto.badge}</span>
@@ -73,9 +81,11 @@ document.querySelectorAll('.itemFiltro').forEach(btn => {
         btn.classList.add('filtroAtivo');
 
         const categoria = btn.dataset.categoria;
-        fotosFiltradas = categoria === 'todos'
+        const base = categoria === 'todos'
             ? fotosCarregadas
             : fotosCarregadas.filter(f => f.categoria === categoria);
+
+        fotosFiltradas = [...base].sort(() => Math.random() - 0.5);
 
         fotosVisiveis = 4;
         renderizarGrid();
@@ -95,19 +105,18 @@ function abrirModalGaleria(index, fotos) {
     const modalFoto = document.getElementById('modalGaleriaFoto');
     const btnGif = document.getElementById('btnGif');
 
-    modalFoto.src = basePath + foto.src;
+    modalFoto.src = getSrc(foto);
 
-    // botão gif
     const temGif = foto.gif && foto.categoria === 'gols';
     btnGif.style.display = temGif ? 'block' : 'none';
     btnGif.textContent = '▶ VER O GOL';
     btnGif.classList.remove('rodando');
+    btnGif.disabled = false;
 
-    // alterna entre gif e foto
     btnGif.onclick = () => {
         const gifRodando = btnGif.classList.contains('rodando');
         if (gifRodando) {
-            modalFoto.src = basePath + foto.src;
+            modalFoto.src = getSrc(foto);
             btnGif.textContent = '▶ VER O GOL';
             btnGif.classList.remove('rodando');
         } else {
@@ -116,9 +125,9 @@ function abrirModalGaleria(index, fotos) {
             btnGif.disabled = true;
 
             const gifTemp = new Image();
-            gifTemp.src = basePath + foto.gif;
+            gifTemp.src = getGif(foto);
             gifTemp.onload = () => {
-                modalFoto.src = basePath + foto.gif;
+                modalFoto.src = getGif(foto);
                 modalFoto.classList.remove('carregando');
                 btnGif.textContent = '⏹ VER A FOTO';
                 btnGif.classList.add('rodando');
@@ -148,7 +157,7 @@ function abrirModalGaleria(index, fotos) {
 
     thumbsFinal.forEach((f, i) => {
         const img = document.createElement('img');
-        img.src = basePath + f.src;
+        img.src = getSrc(f);
         img.classList.add('thumbItem');
         if (i === 0) img.classList.add('ativo');
         img.addEventListener('click', () => abrirModalGaleria(
