@@ -145,8 +145,19 @@ body {
 }
 
 .texto {
-    border-right: 2px solid var(--vermelho);
     padding-right: 50px;
+    border-right: none;
+    position: relative;
+}
+
+.texto::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: var(--vermelho);
 }
 
 .tituloPrincipal {
@@ -220,7 +231,7 @@ body {
 }
 
 .itemDesc {
-    font-size: 17px;
+    font-size: 14px;
     color: var(--texto-secundario);
     line-height: 1.7;
     margin-top: 4px;
@@ -289,7 +300,7 @@ body {
     margin: 0;
     border-radius: 10px;
     background-color: var(--fundo-card);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.3s ease, box-shadow 0.2s ease;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -315,6 +326,7 @@ body {
     pointer-events: none;
     user-select: none;
     font-family: 'fonteCamisa';
+    transition: all 0.7s ease;
 }
 
 .imgJogador {
@@ -1190,7 +1202,7 @@ body {
 .modalSobre {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 4px;
     border-bottom: 2px solid var(--texto-secundario);
     margin-bottom: 10px;
 }
@@ -1206,6 +1218,7 @@ body {
     padding-top: 0;
     margin-top: 0;
     text-align: justify;
+    font-size: 14px;
 }
 
 .modalTitulos {
@@ -1217,10 +1230,24 @@ body {
     padding-top: 10px;
 }
 
+.modalTitulosHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.totalTitulosJogador {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--vermelho);
+    filter: drop-shadow(0 0 8px rgba(232, 0, 28, 0.50));
+}
+
 .titulosGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4px;
 }
 
 .tituloItem {

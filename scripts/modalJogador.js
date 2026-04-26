@@ -9,19 +9,40 @@ function abrirModal(jogador) {
     document.getElementById("modalBandeira").src = `assets/images/bandeiras/${jogador.bandeira}`;
     document.getElementById("modalSobre").textContent = jogador.sobre ?? "---";
 
-    document.querySelector("[data-jogos]").textContent = jogador.jogos ?? "---";
-    document.querySelector("[data-gols]").textContent = jogador.gols ?? "---";
-    document.querySelector("[data-assistencias]").textContent = jogador.assistencias ?? "---";
     document.querySelector("[data-nascimento]").textContent = jogador.nascimento ?? "---";
     document.querySelector("[data-naturalidade]").textContent = jogador.naturalidade ?? "---";
-    document.querySelector("[data-chegada]").textContent = jogador.chegada ?? "---";
-    document.querySelector("[data-saida]").textContent = jogador.saida ?? "---";
     document.querySelector("[data-altura]").textContent = jogador.altura ?? "---";
     document.querySelector("[data-pe]").textContent = jogador.peDominante ?? "---";
+    document.querySelector("[data-chegada]").textContent = jogador.chegada ?? "---";
 
+    const statJogos = document.querySelector("[data-jogos]");
+    const statGols = document.querySelector("[data-gols]");
+    const statAssist = document.querySelector("[data-assistencias]");
+
+    const labelGols = document.querySelector(".statLabel:nth-child(2)");
+
+    statJogos.textContent = jogador.jogos ?? "---";
+
+    if (jogador.posicao === "Goleiro") {
+        //gols sofridos
+        statGols.textContent = jogador.golsSofridos ?? "---";
+        statGols.closest(".statItem").querySelector(".statLabel").textContent = "GOLS SOFRIDOS";
+
+        //jogos sem sofrer gols
+        statAssist.textContent = jogador.jogosSemGols ?? "---";
+        statAssist.closest(".statItem").querySelector(".statLabel").textContent = "S/ SOFRER GOLS";
+    } else {
+        statGols.textContent = jogador.gols ?? "---";
+        statGols.closest(".statItem").querySelector(".statLabel").textContent = "GOLS";
+
+        statAssist.textContent = jogador.assistencias ?? "---";
+        statAssist.closest(".statItem").querySelector(".statLabel").textContent = "ASSIST.";
+    }
+
+    // títulos
     const titulosGrid = document.getElementById("titulosGrid");
     titulosGrid.innerHTML = "";
-    if (jogador.titulos.length > 0) {
+    if (jogador.titulos && jogador.titulos.length > 0) {
         jogador.titulos.forEach(t => {
             titulosGrid.innerHTML += `
                 <div class="tituloItem">
@@ -35,7 +56,14 @@ function abrirModal(jogador) {
     }
 
     overlay.style.display = "flex";
+
+    // total de títulos
+    const total = jogador.titulos
+        ? jogador.titulos.reduce((acc, t) => acc + t.quantidade, 0)
+        : 0;
+    document.getElementById('totalTitulosJogador').textContent = total;
 }
+
 
 document.getElementById("overlayModal").addEventListener("click", function (e) {
     if (e.target === this) this.style.display = "none";

@@ -1,55 +1,7 @@
 [
     {
-        "nome": "Dyogo Alves",
-        "nomeCompleto": "Francisco Dyogo Bento Alves",
-        "numero": 49,
-        "posicao": "Goleiro",
-        "bandeira": "brasil.png",
-        "foto": "dyogoAlves.webp",
-        "nascimento": "09/01/2004",
-        "naturalidade": "Fortaleza - CE",
-        "chegada": 2024,
-        "saida": null,
-        "altura": "1,88m",
-        "peDominante": "Direito",
-        "jogos": 5,
-        "golsSofridos": 8,
-        "jogosSemGols": 1,
-        "sobre": null,
-        "titulos": [
-            {
-                "nome": "Libertadores",
-                "quantidade": 1
-            },
-            {
-                "nome": "Brasileirão",
-                "quantidade": 1
-            },
-            {
-                "nome": "Copa do Brasil",
-                "quantidade": 1
-            },
-            {
-                "nome": "Carioca",
-                "quantidade": 2
-            },
-            {
-                "nome": "Derby das Américas",
-                "quantidade": 1
-            },
-            {
-                "nome": "Challenger Cup",
-                "quantidade": 1
-            },
-            {
-                "nome": "Intercontinental SUB-20",
-                "quantidade": 1
-            }
-        ]
-    },
-    {
         "nome": "Rossi",
-        "nomeCompleto": "Agustín Rossi",
+        "nomeCompleto": "Agustín Daniel Rossi",
         "numero": 1,
         "posicao": "Goleiro",
         "bandeira": "argentina.png",
@@ -57,13 +9,12 @@
         "nascimento": "21/08/1995",
         "naturalidade": "San Martín - ARG",
         "chegada": 2023,
-        "saida": null,
         "altura": "1,93m",
         "peDominante": "Direito",
-        "jogos": 163,
-        "golsSofridos": 117,
+        "jogos": 164,
+        "golsSofridos": 118,
         "jogosSemGols": 77,
-        "sobre": null,
+        "sobre": "Goleiro argentino nascido em Buenos Aires, Rossi iniciou a carreira no Chacarita Juniors e ganhou protagonismo no Boca Juniors antes de chegar ao Flamengo em julho de 2023. Reconhecido pela segurança na saída com os pés, leitura de jogo apurada e especialidade em pênaltis, rapidamente se tornou titular absoluto e referência no vestiário. Em 2025, viveu a melhor temporada de sua carreira: foi o jogador com mais minutos em campo pelo Flamengo, com 69 partidas disputadas, e peça-chave nas conquistas da Supercopa, do Carioca, da Libertadores e do Brasileirão — eleito melhor goleiro do campeonato nacional.",
         "titulos": [
             {
                 "nome": "Libertadores",
@@ -105,16 +56,66 @@
         "nascimento": "01/07/2001",
         "naturalidade": "Duque de Caxias - RJ",
         "chegada": 2026,
-        "saida": null,
         "altura": "1,89m",
         "peDominante": "Direito",
         "jogos": 5,
-        "gols": 0,
-        "assistencias": 0,
-        "sobre": null,
+        "golsSofridos": 4,
+        "jogosSemGols": 2,
+        "sobre": "Goleiro formado no futebol brasileiro, Andrew chegou ao Flamengo em 2026 como uma aposta para compor o elenco principal. Com bom posicionamento, reflexos rápidos e segurança nas saídas do gol, vem sendo utilizado como opção na rotação da equipe. Jovem e em desenvolvimento, busca consolidar seu espaço e evoluir dentro de um elenco competitivo.",
         "titulos": [
             {
                 "nome": "Carioca",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "nome": "Dyogo Alves",
+        "nomeCompleto": "Francisco Dyogo Bento Alves",
+        "numero": 49,
+        "posicao": "Goleiro",
+        "bandeira": "brasil.png",
+        "foto": "dyogoAlves.webp",
+        "nascimento": "09/01/2004",
+        "naturalidade": "Fortaleza - CE",
+        "chegada": 2022,
+        "altura": "1,88m",
+        "peDominante": "Direito",
+        "jogos": 5,
+        "golsSofridos": 8,
+        "jogosSemGols": 1,
+        "sobre": "Goleiro cearense revelado nas categorias de base do Flamengo, Dyogo Alves é um dos grandes talentos da base rubro-negra. Apesar de jovem, já acumula um impressionante currículo de títulos, incluindo conquistas pela equipe principal e pelos times de base do clube. Reconhecido pela tranquilidade com os pés e boa leitura de jogo, é visto como um dos goleiros mais promissores do futebol brasileiro.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 2
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 3
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            },
+            {
+                "nome": "Intercontinental SUB-20",
                 "quantidade": 1
             }
         ]
@@ -130,13 +131,12 @@
         "nascimento": "31/01/1996",
         "naturalidade": "Curitiba - PR",
         "chegada": 2020,
-        "saida": null,
         "altura": "1,89m",
         "peDominante": "Esquerdo",
         "jogos": 297,
         "gols": 18,
         "assistencias": 6,
-        "sobre": null,
+        "sobre": "Zagueiro curitibano revelado no Athletico Paranaense, Léo Pereira chegou ao Flamengo em 2020 e, com o passar das temporadas, se consolidou como uma peça importante no sistema defensivo. Fisicamente imponente e com boa qualidade na saída de bola, também se destaca como opção no jogo aéreo ofensivo. Em 2025, teve participação relevante na campanha do título da Libertadores. Em março de 2026, recebeu sua primeira convocação para a Seleção Brasileira, coroando sua evolução no clube. Com diversos títulos conquistados, figura entre os jogadores mais vitoriosos do elenco atual.",
         "titulos": [
             {
                 "nome": "Libertadores",
@@ -182,13 +182,12 @@
         "nascimento": "03/01/1996",
         "naturalidade": "Porto Alegre - RS",
         "chegada": 2024,
-        "saida": null,
         "altura": "1,85m",
         "peDominante": "Direito",
-        "jogos": 113,
+        "jogos": 114,
         "gols": 7,
         "assistencias": 5,
-        "sobre": null,
+        "sobre": "Zagueiro brasileiro, Léo Ortiz chegou ao Flamengo após se destacar no futebol nacional pela consistência defensiva e qualidade na saída de bola. Inteligente taticamente, se sobressai pelo bom posicionamento, leitura de jogo e capacidade de iniciar jogadas desde a defesa. No elenco rubro-negro, agrega segurança ao sistema defensivo e contribui também ofensivamente em bolas paradas, sendo uma peça importante na rotação da equipe.",
         "titulos": [
             {
                 "nome": "Libertadores",
@@ -204,7 +203,7 @@
             },
             {
                 "nome": "Carioca",
-                "quantidade": 2
+                "quantidade": 3
             },
             {
                 "nome": "Supercopa do Brasil",
@@ -230,13 +229,12 @@
         "nascimento": "15/07/1991",
         "naturalidade": "Bicas - MG",
         "chegada": 2025,
-        "saida": null,
         "altura": "1,84m",
         "peDominante": "Direito",
-        "jogos": 45,
+        "jogos": 46,
         "gols": 5,
-        "assistencias": 9,
-        "sobre": null,
+        "assistencias": 2,
+        "sobre": "Zagueiro experiente natural de Bicas, Minas Gerais, Danilo chegou ao Flamengo em 2025 após uma carreira de alto nível no futebol europeu, onde atuou por grandes clubes e foi capitão da Seleção Brasileira. Dono de liderança marcante, qualidade técnica e versatilidade, rapidamente se tornou referência no elenco rubro-negro. Ficou marcado por gols decisivos, como o da virada contra o Chelsea na Copa do Mundo de Clubes e o gol que garantiu o tetra da Libertadores, reforçando seu protagonismo em momentos importantes.",
         "titulos": [
             {
                 "nome": "Libertadores",
@@ -265,6 +263,29 @@
         ]
     },
     {
+        "nome": "Vitão",
+        "nomeCompleto": "Victor Eduardo da Silva Matos",
+        "numero": 44,
+        "posicao": "Zagueiro",
+        "bandeira": "brasil.png",
+        "foto": "vitao.webp",
+        "nascimento": "02/02/2000",
+        "naturalidade": "Jacarezinho - PR",
+        "chegada": "2026",
+        "altura": "1,85m",
+        "peDominante": "Direito",
+        "jogos": 9,
+        "gols": 0,
+        "assistencias": 0,
+        "sobre": "Zagueiro brasileiro formado nas categorias de base do Palmeiras, Vitão ganhou experiência no futebol europeu atuando por clubes da Ucrânia e da Espanha antes de retornar ao Brasil. Destaca-se pela boa saída de bola, leitura defensiva e capacidade de antecipação. No Flamengo, chegou em 2026 para reforçar o sistema defensivo, agregando qualidade técnica e versatilidade à linha de defesa.",
+        "titulos": [
+            {
+                "nome": "Carioca",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
         "nome": "João Victor",
         "nomeCompleto": "João Victor de Souza Cunha",
         "numero": 71,
@@ -274,13 +295,12 @@
         "nascimento": "01/01/2007",
         "naturalidade": "São Paulo - SP",
         "chegada": 2024,
-        "saida": null,
         "altura": "1,87m",
         "peDominante": "Direito",
         "jogos": 13,
         "gols": 0,
         "assistencias": 0,
-        "sobre": null,
+        "sobre": "Zagueiro paulista nascido em 2007, João Victor é uma das maiores joias da base do Flamengo. Cria do Ninho do Urubu, já estreou profissionalmente ainda muito jovem e acumula títulos expressivos tanto pela equipe principal quanto pela base. Sua qualidade técnica e maturidade precoce fazem dele um dos defensores mais promissores do futebol brasileiro, com futuro amplamente projetado no cenário nacional e internacional.",
         "titulos": [
             {
                 "nome": "Libertadores",
@@ -291,44 +311,24 @@
                 "quantidade": 1
             },
             {
+                "nome": "Copa do Brasil",
+                "quantidade": 1
+            },
+            {
                 "nome": "Carioca",
-                "quantidade": 2
+                "quantidade": 3
             },
             {
                 "nome": "Libertadores SUB-20",
-                "quantidade": 1
+                "quantidade": 2
             },
             {
                 "nome": "Intercontinental SUB-20",
-                "quantidade": 1
+                "quantidade": 2
             }
         ]
     },
-    {
-        "nome": "Vitão",
-        "nomeCompleto": "Victor Eduardo da Silva Matos",
-        "numero": 44,
-        "posicao": "Zagueiro",
-        "bandeira": "brasil.png",
-        "foto": "vitao.webp",
-        "nascimento": "02/02/2000",
-        "naturalidade": "Jacarezinho - PR",
-        "chegada": "2026",
-        "saida": null,
-        "altura": "1,85m",
-        "peDominante": "Direito",
-        "jogos": 9,
-        "gols": 0,
-        "assistencias": 0,
-        "sobre": null,
-        "titulos": [
-            {
-                "nome": "Carioca",
-                "quantidade": 1
-            }
-        ]
-    },
-
+    
     {
         "nome": "Varela",
         "nomeCompleto": "Guillermo Varela Olivera",
@@ -339,13 +339,12 @@
         "nascimento": "24/03/1993",
         "naturalidade": "Montevidéu - URU",
         "chegada": 2022,
-        "saida": null,
         "altura": "1,73m",
         "peDominante": "Direito",
         "jogos": 138,
         "gols": 4,
         "assistencias": 7,
-        "sobre": null,
+        "sobre": "Lateral-direito uruguaio de Montevidéu, Guillermo Varela chegou ao Flamengo em 2022 após passagens pela Europa, incluindo Manchester United e Eintracht Frankfurt. Veloz, intenso e de bom poder ofensivo, rapidamente se tornou titular absoluto na lateral direita rubro-negra. Em 2025, foi peça fundamental no tetracampeonato da Libertadores, demonstrando consistência e qualidade ao longo de toda a temporada histórica do clube.",
         "titulos": [
             {
                 "nome": "Libertadores",
@@ -387,13 +386,12 @@
         "nascimento": "14/01/1999",
         "naturalidade": "São Paulo - SP",
         "chegada": 2025,
-        "saida": null,
         "altura": "1,83m",
         "peDominante": "Direito",
         "jogos": 32,
         "gols": 1,
         "assistencias": 4,
-        "sobre": null,
+        "sobre": "Lateral-direito brasileiro, Emerson Royal construiu sua carreira com passagens pelo futebol europeu, destacando-se pela força física, intensidade e capacidade de apoiar o ataque. Com experiência em alto nível e convocações para a Seleção Brasileira, é um jogador de perfil competitivo, que contribui tanto na marcação quanto nas transições ofensivas. No elenco, agrega versatilidade e consistência ao setor defensivo.",
         "titulos": [
             {
                 "nome": "Libertadores",
@@ -405,54 +403,6 @@
             },
             {
                 "nome": "Carioca",
-                "quantidade": 1
-            },
-            {
-                "nome": "Derby das Américas",
-                "quantidade": 1
-            },
-            {
-                "nome": "Challenger Cup",
-                "quantidade": 1
-            }
-        ]
-    },
-    {
-        "nome": "Ayrton Lucas",
-        "nomeCompleto": "Ayrton Lucas",
-        "numero": 6,
-        "posicao": "Lateral",
-        "bandeira": "brasil.png",
-        "foto": "ayrtonLucas.webp",
-        "nascimento": "19/06/1997",
-        "naturalidade": "Carnaúbas dos Dantas - RN",
-        "chegada": 2022,
-        "saida": null,
-        "altura": "1,80m",
-        "peDominante": "Esquerdo",
-        "jogos": 216,
-        "gols": 16,
-        "assistencias": 23,
-        "sobre": null,
-        "titulos": [
-            {
-                "nome": "Libertadores",
-                "quantidade": 2
-            },
-            {
-                "nome": "Brasileirão",
-                "quantidade": 1
-            },
-            {
-                "nome": "Copa do Brasil",
-                "quantidade": 2
-            },
-            {
-                "nome": "Carioca",
-                "quantidade": 3
-            },
-            {
-                "nome": "Supercopa do Brasil",
                 "quantidade": 1
             },
             {
@@ -475,13 +425,12 @@
         "nascimento": "26/01/1991",
         "naturalidade": "Catanduva - SP",
         "chegada": 2024,
-        "saida": null,
         "altura": "1,81m",
         "peDominante": "Esquerdo",
-        "jogos": 70,
+        "jogos": 71,
         "gols": 1,
         "assistencias": 2,
-        "sobre": null,
+        "sobre": "Lateral-esquerdo experiente natural de Catanduva, Alex Sandro chegou ao Flamengo em 2024 após longa e vitoriosa carreira na Europa, onde defendeu Porto e Juventus. Internacional pela Seleção Brasileira, trouxe ao clube experiência, liderança e qualidade técnica. Mesmo no fim da carreira, contribuiu de forma importante para as conquistas rubro-negras, sendo peça versátil e confiável para o treinador.",
         "titulos": [
             {
                 "nome": "Libertadores",
@@ -513,26 +462,54 @@
             }
         ]
     },
-
     {
-        "nome": "Evertton Araujo",
-        "nomeCompleto": "Evertton Gustavo Fernandes Araujo",
-        "numero": 52,
-        "posicao": "Meio-campo",
+        "nome": "Ayrton Lucas",
+        "nomeCompleto": "Ayrton Lucas Dantas de Medeiros",
+        "numero": 6,
+        "posicao": "Lateral",
         "bandeira": "brasil.png",
-        "foto": "everttonAraujo.webp",
-        "nascimento": "28/02/2003",
-        "naturalidade": "Volta Redonda - RJ",
-        "chegada": null,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
-    },
+        "foto": "ayrtonLucas.webp",
+        "nascimento": "19/06/1997",
+        "naturalidade": "Carnaúbas dos Dantas - RN",
+        "chegada": 2022,
+        "altura": "1,80m",
+        "peDominante": "Esquerdo",
+        "jogos": 217,
+        "gols": 16,
+        "assistencias": 23,
+        "sobre": "Lateral-esquerdo potiguar, Ayrton Lucas chegou ao Flamengo em 2022 e se destaca pela velocidade e pelo apoio ao ataque. Com boa capacidade de ultrapassagem e presença ofensiva, é frequentemente utilizado ao longo da temporada.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 2
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 3
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
+    },   
+
     {
         "nome": "Pulgar",
         "nomeCompleto": "Erick Antonio Pulgar Farfán",
@@ -542,37 +519,132 @@
         "foto": "erickPulgar.webp",
         "nascimento": "15/01/1994",
         "naturalidade": "Antofagasta - CHI",
-        "chegada": 2023,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
+        "chegada": 2022,
+        "altura": "1,88m",
+        "peDominante": "Direito",
+        "jogos": 154,
+        "gols": 5,
+        "assistencias": 9,
+        "sobre": "Meio-campista chileno, Erick Pulgar chegou ao Flamengo trazendo experiência do futebol europeu, após passagens consistentes por clubes da Itália. Titular da seleção chilena por anos, destacou-se pela forte marcação, qualidade na saída de bola e precisão nos passes longos. No Rubro-Negro, consolidou-se como peça importante no equilíbrio do meio-campo, contribuindo tanto na proteção defensiva quanto na construção das jogadas.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 2
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 3
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }  
+        ]
     },
     {
         "nome": "Jorginho",
         "nomeCompleto": "Jorge Luiz Frello Filho",
         "numero": 21,
         "posicao": "Meio-campo",
-        "bandeira": "brasil.png",
+        "bandeira": "italia.png",
         "foto": "jorginho.webp",
         "nascimento": "20/12/1991",
         "naturalidade": "Imbituba - SC",
-        "chegada": 2024,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
+        "chegada": 2025,
+        "altura": "1,80m",
+        "peDominante": "Direito",
+        "jogos": 42,
+        "gols": 7,
+        "assistencias": 3,
+        "sobre": "Meio-campista catarinense naturalizado italiano, Jorginho chegou ao Flamengo em 2025 após uma carreira de alto nível no futebol europeu, com passagens por Napoli, Chelsea e Arsenal. Campeão da Champions League, da Europa League e da Eurocopa, foi eleito o 3º melhor jogador do mundo em 2021 na premiação da Bola de Ouro, consolidando-se como um dos atletas mais completos de sua geração. Referência em cobranças de pênalti e na organização do meio-campo, trouxe ao Rubro-Negro experiência única e qualidade técnica de elite.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }  
+        ]
     },
     {
-        "nome": "Arrascaeta",
+        "nome": "Evertton Araujo",
+        "nomeCompleto": "Evertton Gustavo Fernandes Araujo",
+        "numero": 52,
+        "posicao": "Meio-campo",
+        "bandeira": "brasil.png",
+        "foto": "everttonAraujo.webp",
+        "nascimento": "28/02/2003",
+        "naturalidade": "Volta Redonda - RJ",
+        "chegada": 2022,
+        "altura": "1,84,",
+        "peDominante": "Direito",
+        "jogos": 82,
+        "gols": 3,
+        "assistencias": 1,
+        "sobre": "Meio-campista formado nas categorias de base do Flamengo, Evertton Araújo é um dos jovens valores revelados pelo clube. Natural de Volta Redonda, ganhou espaço no elenco principal de forma gradual, destacando-se pela entrega em campo, marcação consistente e disciplina tática. Utilizado na rotação da equipe, segue em desenvolvimento e busca se firmar cada vez mais como opção no meio-campo rubro-negro.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 2
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 3
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }  
+        ]
+    },
+    {
+        "nome": "De Arrascaeta",
         "nomeCompleto": "Giorgian Daniel De Arrascaeta Benedetti",
         "numero": 10,
         "posicao": "Meio-campo",
@@ -581,13 +653,12 @@
         "nascimento": "01/04/1994",
         "naturalidade": "Nuevo Berlín - URU",
         "chegada": 2019,
-        "saida": null,
-        "altura": "1,77 m",
+        "altura": "1,74m",
         "peDominante": "Direito",
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
+        "jogos": 372,
+        "gols": 104,
+        "assistencias": 116,
+        "sobre": "Ídolo absoluto da Nação, Giorgian de Arrascaeta chegou ao Flamengo em 2019 e se tornou um dos maiores jogadores da história do clube. O meia uruguaio de Nuevo Berlín é o maestro do meio-campo rubro-negro: habilidade, visão de jogo e gols em momentos decisivos são sua marca registrada. Com mais de 370 jogos, 104 gols e 116 assistências pelo clube, é o maior campeão da história do Flamengo ao lado de Bruno Henrique, acumulando 16 títulos com o Manto Sagrado. Em 2025, foi eleito o melhor jogador do Brasileirão, com 25 gols e 20 assistências numa temporada histórica.",
         "titulos": [
             {
                 "nome": "Libertadores",
@@ -596,6 +667,257 @@
             {
                 "nome": "Brasileirão",
                 "quantidade": 3
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 6
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 3
+            },
+            {
+                "nome": "Recopa Sulamericana",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }  
+        ]
+    },
+    {
+        "nome": "L. Paquetá",
+        "nomeCompleto": "Lucas Tolentino Coelho de Lima",
+        "numero": 20,
+        "posicao": "Meio-campo",
+        "bandeira": "brasil.png",
+        "foto": "paqueta.webp",
+        "nascimento": "27/08/1997",
+        "naturalidade": "Rio de Janeiro - RJ",
+        "chegada": "2016 | 2026",
+        "altura": "1,80m",
+        "peDominante": "Esquerdo",
+        "jogos": 115,
+        "gols": 25,
+        "assistencias": 7,
+        "sobre": "Meia carioca revelado nas categorias de base do Flamengo, Lucas Paquetá retornou ao clube que o viu nascer em 2026, após passagens por Milan, Lyon e West Ham, onde se consolidou como um dos melhores meias do futebol europeu. Internacional pela Seleção Brasileira, é reconhecido pela criatividade, dribble e qualidade técnica acima da média. Seu retorno ao Ninho foi recebido com enorme emoção pela torcida rubro-negra, que sempre o considerou um filho da casa.",
+        "titulos": [
+            {
+                "nome": "Carioca",
+                "quantidade": 2
+            } 
+        ]
+    },  
+    {
+        "nome": "Saúl",
+        "nomeCompleto": "Saúl Ñíguez Esclápez",
+        "numero": 8,
+        "posicao": "Meio-campo",
+        "bandeira": "espanha.png",
+        "foto": "saul.webp",
+        "nascimento": "21/11/1994",
+        "naturalidade": "Elche - ESP",
+        "chegada": 2025,
+        "altura": "1,84m",
+        "peDominante": "Esquerdo",
+        "jogos": 26,
+        "gols": 0,
+        "assistencias": 3,
+        "sobre": "Meio-campista espanhol com passagem de destaque pelo futebol europeu, Saúl chegou ao Flamengo em 2025 trazendo experiência e versatilidade. Capaz de atuar em diferentes funções no meio-campo, se destaca pela inteligência tática, intensidade na marcação e qualidade na circulação de bola. No elenco rubro-negro, contribui com sua experiência internacional e agrega opções ao setor, sendo utilizado conforme as necessidades da equipe.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }  
+        ]
+    },
+    {
+        "nome": "De La Cruz",
+        "nomeCompleto": "Diego Nicolás de la Cruz Arcosa",
+        "numero": 18,
+        "posicao": "Meio-campo",
+        "bandeira": "uruguai.png",
+        "foto": "deLaCruz.webp",
+        "nascimento": "01/06/1997",
+        "naturalidade": "Montevidéu - URU",
+        "chegada": 2024,
+        "altura": "1,67m",
+        "peDominante": "Direito",
+        "jogos": 89,
+        "gols": 4,
+        "assistencias": 7,
+        "sobre": "Meio-campista uruguaio, De La Cruz chegou ao Flamengo como um dos principais reforços do elenco, trazendo qualidade técnica, intensidade e versatilidade ao meio-campo. Destaque por sua condução de bola, visão de jogo e capacidade de atuar em diferentes funções, rapidamente se tornou peça importante na equipe. Dinâmico e participativo, contribui tanto na construção das jogadas quanto na recomposição defensiva, sendo um dos nomes mais influentes do setor.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 3
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }  
+        ]
+    },
+    {
+        "nome": "Carrascal",
+        "nomeCompleto": "Jorge Andrés Carrascal Guardo",
+        "numero": 15,
+        "posicao": "Meio-campo",
+        "bandeira": "colombia.png",
+        "foto": "carrascal.webp",
+        "nascimento": "25/05/1998",
+        "naturalidade": "Cartagena de Indias - COL",
+        "chegada": 2025,
+        "altura": "1,80m",
+        "peDominante": "Direito",
+        "jogos": 46,
+        "gols": 5,
+        "assistencias": 9,
+        "sobre": "Meia colombiano, Jorge Carrascal chegou ao Flamengo em 2025 após passagens pelo River Plate e outros clubes argentinos. Veloz, habilidoso e de grande capacidade de infiltração, foi uma das surpresas positivas da temporada 2025, contribuindo com gols e assistências importantes nas conquistas rubro-negras. Sua versatilidade para atuar em diferentes posições no meio-campo o torna uma opção valiosa para o treinador.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }  
+        ]
+    },
+
+    {
+        "nome": "Bruno Henrique",
+        "nomeCompleto": "Bruno Henrique Pinto",
+        "numero": 27,
+        "posicao": "Atacante",
+        "bandeira": "brasil.png",
+        "foto": "brunoHenrique.webp",
+        "nascimento": "30/12/1990",
+        "naturalidade": "Belo Horizonte - MG",
+        "chegada": 2019,
+        "altura": "1,84m",
+        "peDominante": "Direito",
+        "jogos": 356,
+        "gols": 114,
+        "assistencias": 62,
+        "sobre": "Ídolo eterno da Nação, Bruno Henrique chegou ao Flamengo em 2019 e escreveu seu nome em letras douradas na história do clube. Natural de Belo Horizonte, o atacante é um dos jogadores mais raçudos e dedicados que já vestiram o Manto Sagrado. Ao lado de Arrascaeta, é o maior campeão da história do Flamengo, com 20 títulos conquistados. Velocidade avassaladora, gols em momentos decisivos e uma identificação única com a torcida fazem dele muito mais do que um jogador — é um símbolo do Flamengo mais vitorioso de todos os tempos.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 3
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 3
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 6
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 3
+            },
+            {
+                "nome": "Recopa Sulamericana",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }  
+        ]
+    },
+    {
+        "nome": "Pedro",
+        "nomeCompleto": "Pedro Guilherme Abreu dos Santos",
+        "numero": 9,
+        "posicao": "Atacante",
+        "bandeira": "brasil.png",
+        "foto": "pedro.webp",
+        "nascimento": "20/06/1997",
+        "naturalidade": "Rio de Janeiro - RJ",
+        "chegada": 2020,
+        "altura": "1,85m",
+        "peDominante": "Direito",
+        "jogos": 325,
+        "gols": 163,
+        "assistencias": 43,
+        "sobre": "O maior artilheiro do Flamengo no século XXI e o sexto maior goleador da história do clube. Carioca nascido no Rio de Janeiro, Pedro chegou ao Rubro-Negro em 2020 e nunca mais parou de marcar. Com 163 gols em mais de 300 partidas, superou Gabigol e se eternizou como ídolo da Nação. Centroavante completo, forte no jogo aéreo, habilidoso e preciso na finalização, foi artilheiro da Libertadores de 2022 com 12 gols. Em 2026, retomou o protagonismo sob o comando de Leonardo Jardim",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 2
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 2
             },
             {
                 "nome": "Copa do Brasil",
@@ -612,139 +934,102 @@
             {
                 "nome": "Recopa Sulamericana",
                 "quantidade": 1
-            }
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }  
         ]
     },
     {
-        "nome": "De La Cruz",
-        "nomeCompleto": "Diego Nicolás de la Cruz Arcosa",
-        "numero": 18,
-        "posicao": "Meio-campo",
-        "bandeira": "uruguai.png",
-        "foto": "deLaCruz.webp",
-        "nascimento": "01/06/1997",
-        "naturalidade": "Montevidéu - URU",
-        "chegada": 2023,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
-    },
-    {
-        "nome": "Saúl",
-        "nomeCompleto": "Saúl Ñíguez Esclápez",
-        "numero": 8,
-        "posicao": "Meio-campo",
-        "bandeira": "espanha.png",
-        "foto": "saul.webp",
-        "nascimento": "21/11/1994",
-        "naturalidade": "Elche - ESP",
-        "chegada": 2025,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
-    },
-    {
-        "nome": "Carrascal",
-        "nomeCompleto": "Jorge Andrés Carrascal Guardo",
-        "numero": 15,
-        "posicao": "Meio-campo",
-        "bandeira": "colombia.png",
-        "foto": "carrascal.webp",
-        "nascimento": "25/05/1998",
-        "naturalidade": "Cartagena - COL",
-        "chegada": 2024,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
-    },
-    {
-        "nome": "L. Paquetá",
-        "nomeCompleto": "Lucas Tolentino Coelho de Lima",
-        "numero": 20,
-        "posicao": "Meio-campo",
-        "bandeira": "brasil.png",
-        "foto": "paqueta.webp",
-        "nascimento": "27/08/1997",
-        "naturalidade": "Rio de Janeiro - RJ",
-        "chegada": null,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
-    },
-    {
-        "nome": "Bruno Henrique",
-        "nomeCompleto": "Bruno Henrique Pinto",
-        "numero": 27,
+        "nome": "Luiz Araújo",
+        "nomeCompleto": "Luiz de Araújo Guimarães Neto",
+        "numero": 7,
         "posicao": "Atacante",
         "bandeira": "brasil.png",
-        "foto": "brunoHenrique.webp",
-        "nascimento": "30/12/1990",
-        "naturalidade": "Belo Horizonte - MG",
-        "chegada": 2019,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
+        "foto": "luizAraujo.webp",
+        "nascimento": "02/06/1996",
+        "naturalidade": "Taquatiringa - SP",
+        "chegada": 2023,
+        "altura": "1,75",
+        "peDominante": "Esquerdo",
+        "jogos": 163,
+        "gols": 25,
+        "assistencias": 22,
+        "sobre": "Atacante paulista natural de Taquatiringa, Luiz Araújo chegou ao Flamengo em 2023 após passagem pelo Lille, da França. Veloz, habilidoso e com faro de gol, rapidamente se adaptou ao estilo rubro-negro e se tornou uma das peças importantes do setor ofensivo. Com mais de 160 jogos pelo clube, acumula números expressivos e tem sido peça regular nas conquistas do Flamengo desde sua chegada.",
         "titulos": [
             {
                 "nome": "Libertadores",
-                "quantidade": 3
+                "quantidade": 1
             },
             {
                 "nome": "Brasileirão",
-                "quantidade": 3
+                "quantidade": 1
             },
             {
                 "nome": "Copa do Brasil",
-                "quantidade": 2
+                "quantidade": 1
             },
             {
                 "nome": "Carioca",
-                "quantidade": 5
+                "quantidade": 3
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
             }
         ]
     },
     {
-        "nome": "Pedro",
-        "nomeCompleto": "Pedro Guilherme Abreu dos Santos",
-        "numero": 9,
+        "nome": "S. Lino",
+        "nomeCompleto": "Samuel Dias Lino",
+        "numero": 16,
         "posicao": "Atacante",
         "bandeira": "brasil.png",
-        "foto": "pedro.webp",
-        "nascimento": "20/06/1997",
-        "naturalidade": "Rio de Janeiro - RJ",
-        "chegada": 2020,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
+        "foto": "samuelLino.webp",
+        "nascimento": "23/12/1999",
+        "naturalidade": "Santo André - SP",
+        "chegada": 2025,
+        "altura": "1,77",
+        "peDominante": "Direito",
+        "jogos": 53,
+        "gols": 8,
+        "assistencias": 11,
+        "sobre": "Atacante brasileiro que atua pelos lados do campo, S. Lino chegou ao Flamengo trazendo velocidade, drible e capacidade de desequilíbrio no um contra um. Com boa movimentação e intensidade, é uma opção ofensiva que busca abrir espaços na defesa adversária e contribuir na criação de jogadas, além de participar da recomposição quando necessário.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
     },
     {
         "nome": "Everton Cebolinha",
@@ -756,34 +1041,43 @@
         "nascimento": "22/03/1996",
         "naturalidade": "Maracanaú - CE",
         "chegada": "2022",
-        "saida": null,
         "altura": "1,74m",
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
-    },
-    {
-        "nome": "Luiz Araújo",
-        "nomeCompleto": "Luiz de Araújo Guimarães Neto",
-        "numero": 7,
-        "posicao": "Atacante",
-        "bandeira": "brasil.png",
-        "foto": "luizAraujo.webp",
-        "nascimento": "02/06/1996",
-        "naturalidade": "São Paulo - SP",
-        "chegada": 2022,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
-    },
+        "peDominante": "Direito",
+        "jogos": 186,
+        "gols": 21,
+        "assistencias": 25,
+        "sobre": "Atacante cearense de Maracanaú, Everton Cebolinha chegou ao Flamengo em 2022 após passagem pelo futebol português. Revelado no futebol brasileiro e com destaque pela Seleção Brasileira na Copa América de 2019, é conhecido pela velocidade, drible e movimentação pelo lado do campo. No Rubro-Negro, viveu momentos de altos e baixos, mas segue sendo uma opção importante no setor ofensivo, contribuindo com gols, assistências e participação nas jogadas de ataque.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 2
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 2
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 3
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
+    },    
     {
         "nome": "G. Plata",
         "nomeCompleto": "Gonzalo Jordy Plata Jiménez",
@@ -793,15 +1087,43 @@
         "foto": "plata.webp",
         "nascimento": "01/11/2000",
         "naturalidade": "Guayaquil - EQU",
-        "chegada": 2025,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
+        "chegada": 2024,
+        "altura": "1,78m",
+        "peDominante": "Esquerdo",
+        "jogos": 87,
+        "gols": 8,
+        "assistencias": 11,
+        "sobre": "Atacante equatoriano, G. Plata é conhecido pela velocidade, habilidade no um contra um e capacidade de atuar pelos lados do campo. Com perfil agudo e ofensivo, costuma buscar jogadas individuais e infiltrações, sendo uma opção para dar profundidade ao ataque. No elenco, contribui com sua movimentação e versatilidade, podendo atuar em diferentes funções no setor ofensivo.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 2
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
     },
     {
         "nome": "Wallace Yan",
@@ -812,33 +1134,42 @@
         "foto": "wallaceYan.webp",
         "nascimento": "08/02/2005",
         "naturalidade": "Rio de Janeiro - RJ",
-        "chegada": null,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
-    },
-    {
-        "nome": "S. Lino",
-        "nomeCompleto": "Samuel Dias Lino",
-        "numero": 16,
-        "posicao": "Atacante",
-        "bandeira": "brasil.png",
-        "foto": "samuelLino.webp",
-        "nascimento": "23/12/1999",
-        "naturalidade": "Santo André - SP",
         "chegada": 2024,
-        "saida": null,
-        "altura": null,
-        "peDominante": null,
-        "jogos": null,
-        "gols": null,
-        "assistencias": null,
-        "sobre": null,
-        "titulos": []
+        "altura": "1,82m",
+        "peDominante": "Direito",
+        "jogos": 43,
+        "gols": 7,
+        "assistencias": 5,
+        "sobre": "Atacante carioca revelado nas categorias de base do Flamengo, Wallace Yan é um dos jovens talentos do clube. Nascido em 2005, ganhou espaço no elenco profissional ainda cedo, chamando atenção pela velocidade, habilidade e personalidade em campo. Ficou marcado por um gol importante contra o Chelsea na Copa do Mundo de Clubes em 2025, mostrando frieza em momentos decisivos. Em constante evolução, é visto como uma promessa do ataque rubro-negro.",
+        "titulos": [
+            {
+                "nome": "Libertadores",
+                "quantidade": 1
+            },
+            {
+                "nome": "Brasileirão",
+                "quantidade": 1
+            },
+            {
+                "nome": "Copa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Carioca",
+                "quantidade": 3
+            },
+            {
+                "nome": "Supercopa do Brasil",
+                "quantidade": 1
+            },
+            {
+                "nome": "Derby das Américas",
+                "quantidade": 1
+            },
+            {
+                "nome": "Challenger Cup",
+                "quantidade": 1
+            }
+        ]
     }
 ]

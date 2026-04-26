@@ -16,7 +16,7 @@ fetch("assets/dados/idolos.json")
             document.querySelector(".fotoIdolo").alt = idolo.nome;
             document.querySelector(".fotoDescricao").textContent = idolo.fotoDescricao;
 
-            const labelGolsVitorias = document.querySelector(".labelGolsVitorias");
+            const labelGolsVitorias = document.querySelector(".labelGolsSofridos");
             const valorGolsVitorias = document.querySelector(".subtituloGols");
 
             if (idolo.vitorias !== undefined) {
