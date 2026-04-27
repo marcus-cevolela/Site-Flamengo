@@ -1,0 +1,1007 @@
+:root {
+    --vermelho: #E8001C;
+    --vermelho-suave: rgba(232, 0, 28, 0.08);
+    --vermelho-borda: rgba(232, 0, 28, 0.35);
+    --fundo-pagina: #0A0A0A;
+    --fundo-card: #111111;
+    --fundo-navbar: #000000;
+    --texto-principal: #FFFFFF;
+    --texto-secundario: rgba(255, 255, 255, 0.40);
+    --texto-navbar: rgba(255, 255, 255, 0.40);
+    --neon-m: 0 0 10px rgba(232, 0, 28, 0.50);
+    --neon-g: 0 0 14px rgba(232, 0, 28, 0.70);
+    --neon-linha: 0 0 8px #E8001C, 0 0 20px rgba(232, 0, 28, 0.40);
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+
+    /* globais */
+    .titulo {
+        font-size: 32px;
+    }
+
+    .subTitulo {
+        font-size: 18px;
+    }
+
+    /* historia */
+    .containerHistoria {
+        flex-direction: column;
+        padding: 60px 32px;
+        gap: 40px;
+    }
+
+    .texto {
+        padding-right: 0;
+    }
+
+    .texto::after {
+        display: none;
+    }
+
+    .tituloPrincipal {
+        font-size: 34px;
+    }
+
+    .cardsHistoria {
+        min-width: unset;
+        width: 100%;
+    }
+
+    /* elenco */
+    .containerElenco {
+        padding: 48px 24px;
+    }
+
+    .elenco {
+        grid-template-columns: repeat(3, 200px);
+    }
+
+    /* idolos */
+    .containerIdolos {
+        padding: 48px 24px;
+    }
+
+    .conteudo {
+        flex-direction: column;
+        height: auto;
+        gap: 32px;
+    }
+
+    .conteudoIdolo {
+        padding-right: 0;
+        border-right: none;
+        height: auto;
+        overflow: visible;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .bioIdolo {
+        text-align: justify;
+    }
+
+    .carrosselIdolo {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .carrosselIdolo img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .fotoOverlay {
+        left: 0;
+    }
+
+    /* titulos */
+    .containerTitulos {
+        padding: 48px 24px;
+    }
+
+    .totalTitulos {
+        font-size: 80px;
+    }
+
+    .carrosselTacas,
+    .tacasWrapper {
+        overflow: hidden;
+    }
+
+    /* homenagem */
+    .containerHomenagem {
+        padding: 48px 24px;
+    }
+
+    .estrela {
+        width: 120px;
+    }
+
+    /* galeria */
+    .containerGaleria {
+        padding: 48px 24px;
+    }
+
+    .gridGaleria {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .imgGaleria {
+        height: 220px;
+    }
+
+    /* filtros */
+    .filtroGaleria {
+        flex-wrap: wrap;
+        overflow-x: auto;
+        justify-content: center;
+        gap: 12px;
+        padding-bottom: 6px;
+    }
+
+
+    .itemFiltro {
+        flex-shrink: 0;
+    }
+
+    /* modal jogador */
+    .modalJogador {
+        width: 90vw;
+        max-height: 90vh;
+        flex-direction: column;
+    }
+
+    .modalEsquerda {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modalInfo {
+        width: 100%;
+    }
+
+    .modalEsquerda img {
+        width: 140px;
+        height: 200px;
+        object-fit: cover;
+        object-position: top;
+        flex: none;
+    }
+
+    .statsJogador {
+        flex: 1;
+        grid-template-columns: repeat(3, 1fr);
+        border-top: none;
+        border-left: 1px solid rgba(232, 0, 28, 0.3);
+    }
+
+    .statItem {
+        border-right: 1px solid rgba(232, 0, 28, 0.2);
+        border-bottom: none;
+    }
+
+    .titulosGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* modal galeria */
+    .modalGaleria {
+        width: 92vw;
+        flex-direction: column;
+        max-height: 92vh;
+        overflow-y: auto;
+    }
+
+    .modalGaleriaEsquerda {
+        width: 100%;
+        min-height: 280px;
+    }
+
+    .modalGaleriaEsquerda img {
+        height: 280px;
+    }
+
+    .modalThumbs {
+        display: none;
+    }
+
+    .navBtnFlutuante {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1010;
+        background: rgba(0, 0, 0, 0.55);
+        border-radius: 50%;
+        width: 44px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        line-height: 1;
+        padding: 0;
+        color: rgba(255, 255, 255, 0.85);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    #btnAnterior {
+        left: 8px;
+    }
+
+    #btnProximo {
+        right: 8px;
+    }
+
+    /* footer */
+    .conteudoFooter {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 0 24px;
+    }
+
+    .footerCentro {
+        order: -1;
+    }
+
+    .footerDireita {
+        text-align: left;
+    }
+
+    .itemFontes,
+    .atualizacaoFooter {
+        justify-content: flex-start;
+    }
+
+    .footerBottom {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+        padding: 20px 24px;
+    }
+
+    .conteudoBottom {
+        text-align: center;
+        max-width: 100%;
+    }
+}
+
+/* mobile */
+@media (max-width: 768px) {
+
+    /* globais */
+    .titulo {
+        font-size: 26px;
+    }
+
+    .subTitulo {
+        font-size: 15px;
+        padding: 0 16px;
+    }
+
+    .badge {
+        margin-bottom: 16px;
+    }
+
+    /* hero */
+    .hero {
+        padding: 40px 20px 32px;
+        min-height: calc(100vh - 56px);
+    }
+
+    #escudoCRF {
+        width: 150px;
+        height: 150px;
+    }
+
+    .containerBtn {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        padding: 0 32px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* historia */
+    .containerHistoria {
+        padding: 48px 20px;
+        gap: 32px;
+    }
+
+    .tituloPrincipal {
+        font-size: 28px;
+    }
+
+    .textoPrincipal {
+        font-size: 14px;
+    }
+
+    .itemNome {
+        font-size: 18px;
+    }
+
+    .itemDesc {
+        font-size: 13px;
+    }
+
+    /* elenco */
+    .containerElenco {
+        padding: 40px 16px;
+    }
+
+    .filtroElenco {
+        gap: 8px;
+    }
+
+    .filtroElencoBtn {
+        padding: 7px 12px;
+        font-size: 11px;
+    }
+
+    .elenco {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .cardJogador {
+        width: 100%;
+    }
+
+    .imgJogador {
+        height: 180px;
+    }
+
+    .numeroFoto {
+        font-size: 48px;
+    }
+
+    /* idolos */
+    .containerIdolos {
+        padding: 40px 20px;
+    }
+
+    .conteudo {
+        margin-top: 32px;
+    }
+
+    .conteudoIdolo {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tituloIdolo {
+        font-size: 26px;
+    }
+
+    .bioIdolo {
+        font-size: 14px;
+        overflow-y: visible;
+        max-height: none;
+        text-align: justify;
+    }
+
+    .rodapeIdolo {
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .carrosselIdolo img {
+        height: 300px;
+    }
+
+    .navIdolos {
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+    .dotsIdolos {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding-bottom: 4px;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .dotsIdolos::-webkit-scrollbar {
+        display: none;
+    }
+
+    .btnLateralIdolo {
+        font-size: 44px;
+        flex-shrink: 0;
+    }
+
+    /* títulos */
+    .containerTitulos {
+        padding: 40px 20px;
+    }
+
+    .totalTitulos {
+        font-size: 64px;
+    }
+
+    .tituloTitulos {
+        font-size: 18px;
+    }
+
+    .fraseTitulos {
+        font-size: 15px;
+    }
+
+    .carrosselTacas,
+    .tacasWrapper {
+        height: 380px;
+        overflow: hidden;
+    }
+
+    .imgTaca {
+        width: 130px;
+        max-height: 240px;
+    }
+
+    #tacaCopaDoBrasil {
+        width: 100px;
+    }
+
+    .nomeTitulo {
+        font-size: 16px;
+        transform: none;
+    }
+
+    .qtdTitulos {
+        font-size: 32px;
+        padding-top: 8px;
+        transform: none;
+    }
+
+    .anosTitulos {
+        font-size: 13px;
+        max-width: 200px;
+        transform: none;
+    }
+
+    .btnLateral {
+        font-size: 52px;
+        padding: 0 4px;
+    }
+
+    /* homenagem */
+    .containerHomenagem {
+        padding: 40px 20px;
+    }
+
+    .caixaCeu {
+        min-height: 540px;
+        border-radius: 14px;
+    }
+
+    .estrelasGarotos {
+        height: 400px;
+    }
+
+    .estrela {
+        width: 100px;
+    }
+
+    #e1 {
+        top: 15px;
+        left: 2%;
+    }
+
+    #e2 {
+        top: 50px;
+        left: 22%;
+    }
+
+    #e3 {
+        top: 10px;
+        left: 42%;
+    }
+
+    #e4 {
+        top: 50px;
+        left: 62%;
+    }
+
+    #e5 {
+        top: 15px;
+        left: 80%;
+    }
+
+    #e6 {
+        top: 225px;
+        left: 2%;
+    }
+
+    #e7 {
+        top: 248px;
+        left: 22%;
+    }
+
+    #e8 {
+        top: 222px;
+        left: 44%;
+    }
+
+    #e9 {
+        top: 250px;
+        left: 64%;
+    }
+
+    #e10 {
+        top: 224px;
+        left: 82%;
+    }
+
+    .rodapeCeu {
+        padding: 16px 20px 22px;
+    }
+
+    /* galeria */
+    .containerGaleria {
+        padding: 40px 20px;
+    }
+
+    .filtroGaleria {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .itemFiltro {
+        width: 100px;
+        height: 100px;
+    }
+
+    .gridGaleria {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        padding-top: 32px;
+    }
+
+    .imgGaleria {
+        height: 240px;
+    }
+
+    .rodapeGaleria {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .btnGaleria {
+        width: 100%;
+    }
+
+    /* modal jogador */
+    .overlayModal {
+        padding: 16px;
+        align-items: flex-start;
+        overflow-y: auto;
+        z-index: 1005;
+    }
+
+    .modalJogador {
+        width: 95%;
+        max-height: none;
+        flex-direction: column;
+        border-radius: 12px;
+        margin: auto;
+        z-index: 1006;
+    }
+
+    .modalEsquerda {
+        width: 100%;
+        max-height: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        place-items: center;
+    }
+
+    .modalInfo {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid var(--vermelho);
+        padding: 0;
+    }
+
+    .modalEsquerda img {
+        display: block;
+        align-self: center;
+    }
+
+    .posicaoJogador {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 8px 0;
+        font-size: 13px;
+    }
+
+    .statsJogador {
+        border-left: none;
+        border-top: 1px solid rgba(232, 0, 28, 0.3);
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+    }
+
+    .statItem {
+        border-bottom: none;
+    }
+
+    .modalDireita {
+        padding: 16px;
+    }
+
+    .numeroModal {
+        font-size: 70px;
+        padding-left: 6px;
+    }
+
+    .modalApelido {
+        font-size: 18px;
+    }
+
+    .titulosGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* modal galeria */
+    .modalGaleria {
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+        max-height: none;
+    }
+
+    .modalGaleriaEsquerda {
+        width: 100%;
+        min-height: 200px;
+    }
+
+    .modalGaleriaEsquerda img {
+        height: 200px;
+    }
+
+    .navBtnFlutuante {
+        display: none;
+    }
+
+    .modalGaleriaNav {
+        display: none;
+    }
+
+    .modalGaleriaDireita {
+        padding: 14px;
+    }
+
+    #modalGaleriaTitulo {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .modalSobre {
+        margin-bottom: 6px;
+    }
+
+    .bioJogador {
+        font-size: 13px;
+    }
+
+    /* footer */
+    .rodape {
+        max-width: 100%;
+    }
+
+    .divisoria {
+        margin-bottom: 32px;
+    }
+
+    .conteudoFooter {
+        padding: 0 20px;
+        gap: 24px;
+    }
+
+    .footerEsquerda {
+        align-items: center;
+        text-align: center;
+    }
+
+    .labelFooter,
+    .subFooter {
+        text-align: center;
+    }
+
+    .redesFooter {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .btnRede {
+        width: 130px;
+    }
+
+    .btnCurriculo {
+        align-self: center;
+        justify-content: center;
+    }
+
+    .footerBottom {
+        padding: 16px 20px;
+    }
+}
+
+/* mobile pequeno */
+@media (max-width: 480px) {
+
+    /* globais */
+    .titulo {
+        font-size: 22px;
+    }
+
+    .subTitulo {
+        font-size: 14px;
+    }
+
+    /* hero */
+    #escudoCRF {
+        width: 120px;
+        height: 120px;
+    }
+
+    .containerBtn {
+        padding: 0 16px;
+    }
+
+    /* historia */
+    .tituloPrincipal {
+        font-size: 24px;
+    }
+
+    .itemIcon {
+        width: 44px;
+        height: 44px;
+    }
+
+    .itemIcon img {
+        width: 34px;
+        height: 34px;
+    }
+
+    /* elenco */
+    .filtroElenco {
+        gap: 6px;
+    }
+
+    .filtroElencoBtn {
+        padding: 6px 10px;
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    .elenco {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .imgJogador {
+        height: 150px;
+    }
+
+    .nomeJogador {
+        font-size: 13px;
+    }
+
+    /* idolos */
+    .tituloIdolo {
+        font-size: 22px;
+    }
+
+    .carrosselIdolo img {
+        height: 240px;
+    }
+
+    .rodapeIdolo {
+        gap: 16px;
+    }
+
+    /* títulos */
+    .totalTitulos {
+        font-size: 52px;
+    }
+
+    .tituloTitulos {
+        font-size: 12px;
+    }
+
+    .tacasWrapper {
+        height: 360px;
+        overflow: hidden;
+    }
+
+    .carrosselTacas {
+        height: 420px;
+    }
+
+    .cardTitulo.lateral {
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .cardTitulo.longe {
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .cardTitulo.ativo {
+        opacity: 1 !important;
+        visibility: visible;
+    }
+
+    .imgTaca {
+        width: 120px;
+        max-height: 200px;
+    }
+
+    #tacaCopaDoBrasil {
+        width: 150px;
+    }
+
+    .nomeTitulo {
+        font-size: 16px;
+        transform: none;
+    }
+
+    .qtdTitulos {
+        font-size: 32px;
+        transform: none;
+    }
+
+    .anosTitulos {
+        font-size: 12px;
+        max-width: 180px;
+        transform: none;
+    }
+
+    .btnLateral {
+        font-size: 52px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    /* homenagem */
+    .caixaCeu {
+        min-height: 460px;
+    }
+
+    .estrelasGarotos {
+        height: 330px;
+    }
+
+    .estrela {
+        width: 83px;
+    }
+
+    #e1 {
+        top: 12px;
+        left: 1%;
+    }
+
+    #e2 {
+        top: 78px;
+        left: 24%;
+    }
+
+    #e3 {
+        top: 8px;
+        left: 43%;
+    }
+
+    #e4 {
+        top: 80px;
+        left: 63%;
+    }
+
+    #e5 {
+        top: -9px;
+        left: 75%;
+    }
+
+    #e6 {
+        top: 160px;
+        left: 2%;
+    }
+
+    #e7 {
+        top: 208px;
+        left: 23%;
+    }
+
+    #e8 {
+        top: 160px;
+        left: 45%;
+    }
+
+    #e9 {
+        top: 220px;
+        left: 58%;
+    }
+
+    #e10 {
+        top: 145px;
+        left: 77%;
+    }
+
+    /* galeria */
+    .itemFiltro {
+        width: 100px;
+        height: 100px;
+        gap: 5px;
+    }
+
+    .iconeFiltro {
+        width: 28px;
+        height: 28px;
+    }
+
+    .tituloFiltro {
+        font-size: 11px;
+    }
+
+    .subFiltro {
+        font-size: 10px;
+    }
+
+    /* modal jogador */
+    .modalEsquerda img {
+        height: 150px;
+    }
+
+    .numeroModal {
+        font-size: 56px;
+    }
+
+    .modalApelido {
+        font-size: 16px;
+    }
+
+    .titulosGrid {
+        grid-template-columns: 1fr 1fr;
+        gap: 4px;
+    }
+
+    .tituloNome {
+        font-size: 11px;
+    }
+
+    /* footer */
+    .nomeFooter {
+        font-size: 20px;
+    }
+
+    .redesFooter {
+        gap: 8px;
+    }
+
+    .btnRede {
+        width: 100%;
+    }
+
+    .footerBottom {
+        text-align: center;
+    }
+}

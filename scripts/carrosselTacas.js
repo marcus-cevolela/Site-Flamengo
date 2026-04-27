@@ -58,14 +58,27 @@ fetch("assets/dados/titulos.json")
                 moverCarrosselTacas(diff > 0 ? 2 : -2);
             }
         });
-
     });
+
+function isMobile() {
+    return window.innerWidth <= 768;
+}
+
+function getDeslocamentos() {
+    if (isMobile()) return [0, 0, 0, 0, 0];
+    return [-420, -230, 0, 230, 420];
+}
+
+function getEscalas() {
+    if (isMobile()) return [0, 0, 1.00, 0, 0];
+    return [0.55, 0.75, 1.00, 0.75, 0.55];
+}
 
 function atualizarCarrosselTacas() {
     var cards = document.getElementById("idCarrosselTacas").children;
     var total = cards.length;
-    var deslocamentos = [-420, -230, 0, 230, 420];
-    var escalas = [0.65, 0.82, 1.00, 0.82, 0.65];
+    var deslocamentos = getDeslocamentos();
+    var escalas = getEscalas();
     var classes = ["longe", "lateral", "ativo", "lateral", "longe"];
 
     for (var i = 0; i < total; i++) {
@@ -77,12 +90,14 @@ function atualizarCarrosselTacas() {
         if (slot < 0 || slot > 4) {
             cards[i].className = "cardTitulo";
             cards[i].style.pointerEvents = "none";
+            cards[i].style.opacity = "0";
             continue;
         }
 
-        cards[i].style.pointerEvents = "auto";
         cards[i].style.transform = "translateX(" + deslocamentos[slot] + "px) scale(" + escalas[slot] + ")";
-        cards[i].style.zIndex = slot == 2 ? 5 : slot == 1 || slot == 3 ? 2 : 1;
+        cards[i].style.zIndex = slot == 2 ? 5 : isMobile() ? 0 : (slot == 1 || slot == 3 ? 2 : 1);
+        cards[i].style.opacity = isMobile() ? (slot == 2 ? "1" : "0") : "";
+        cards[i].style.pointerEvents = isMobile() ? (slot == 2 ? "auto" : "none") : "auto";
         cards[i].className = "cardTitulo " + classes[slot];
         cards[i].dataset.indice = i;
         cards[i].style.bottom = slot == 2 ? "1rem" : "0";
@@ -94,3 +109,5 @@ function moverCarrosselTacas(direcao) {
     cardAtual = ((cardAtual + direcao) % total + total) % total;
     atualizarCarrosselTacas();
 }
+
+window.addEventListener("resize", atualizarCarrosselTacas);
